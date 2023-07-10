@@ -38,6 +38,8 @@ function Home() {
   });
   return (
     <div className="home">
+      <div className="gapper1"></div>
+
       <Header timeline={timeline_home} />
 
       <div className="container">
@@ -52,12 +54,17 @@ function Home() {
         <div></div>
       </div>
 
+      <div className="gapper2"></div>
+
       <div className="left-side-quote">
         <p ref={(el) => (p1 = el)}>
           I create UNCONVENTIONAL yet <br /> functional and visually pleasing{" "}
           <br /> websites for mobile and web.
         </p>
       </div>
+
+      <div className="gapper3"></div>
+
       <div className="container">
         <div></div>
         <div className="container1">
@@ -106,9 +113,25 @@ function Home() {
         </div>
         <div className="skill-set-boxes">
           <div className="skill-set-box">
+            <h1 className="skill-set-box-h1">C/C++</h1>
+            <p className="skill-set-box-p">
+              I mainly use them for problem solving
+            </p>
+            <p>___</p>
+          </div>
+
+          <div className="skill-set-box">
+            <h1 className="skill-set-box-h1">DSA</h1>
+            <p className="skill-set-box-p">
+              I use them to solve problems more efficiently
+            </p>
+            <p>___</p>
+          </div>
+
+          <div className="skill-set-box">
             <h1 className="skill-set-box-h1">HTML5</h1>
             <p className="skill-set-box-p">
-              I mainly used to develop Website Markup
+              I mainly use this to develop Website Markup
             </p>
             <p>___</p>
           </div>

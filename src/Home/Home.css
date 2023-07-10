@@ -1,6 +1,17 @@
 * {
   font-family: "Ogg";
 }
+
+.gapper1 {
+  margin-top: 50px;
+}
+.gapper2 {
+  margin-top: 0px;
+}
+.gapper3 {
+  margin-top: 0px;
+}
+
 .container {
   display: flex;
   align-items: flex-start;
@@ -12,7 +23,7 @@
 .container1 {
   display: flex;
   flex-direction: column;
-  padding: 0px 12vh;
+  padding: 0px 8vw;
   height: 100%;
   justify-content: center;
   overflow: hidden;
@@ -32,6 +43,11 @@
 .line-bottom {
   margin-top: -14vw;
 }
+
+.container1 #designer p i {
+  color: #642420;
+}
+
 .right-side-menu {
   position: absolute;
   top: 40vh;
@@ -45,8 +61,9 @@
   cursor: pointer;
   font-weight: lighter;
 }
+
 .left-side-quote {
-  margin-left: 14vh;
+  margin-left: 9vw;
 }
 .left-side-quote p {
   color: black;
@@ -87,7 +104,7 @@
   margin-bottom: -150px;
   letter-spacing: -2px;
   text-align: center;
-  line-height: 130%;
+  line-height: 190px;
 }
 .short-about p {
   text-align: center;
@@ -97,11 +114,12 @@
   font-size: 1.5vw;
   margin-top: 30px;
 }
+
 .another-svg {
   margin-top: 40px;
 }
 .short-about .another-svg img {
-  width: 50px;
+  width: 5vw;
   animation: animate-rotate 10s infinite linear;
 }
 
@@ -118,9 +136,9 @@
   width: 100%;
   overflow: hidden;
 }
-
 .my-skills-reel {
   margin-top: 300px;
+  margin-bottom: 150px;
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -144,7 +162,6 @@
   font-size: 25vh;
   text-transform: uppercase;
 }
-
 .my-skills-reel:hover {
   animation-play-state: paused;
 }
@@ -158,7 +175,6 @@
   height: fit-content;
   flex-wrap: wrap;
 }
-
 .skill-set-box {
   margin: 50px 10px;
   display: flex;
@@ -195,50 +211,43 @@
   margin-top: 20px;
   font-size: 13px;
 }
+
 .project-and-work {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 80%;
   margin-left: 10%;
-  margin-top: 100px;
+  margin-top: 20vw;
   margin-bottom: 100px;
   flex-direction: column;
   height: 30vh;
-  padding-bottom: 100px;
+  padding-bottom: 9vw;
   border-bottom: 1px dashed black;
 }
 .project-and-work h1 .h1-project {
   text-decoration: none;
   color: black;
-  font-size: 100px;
+  font-size: 10vw;
   font-weight: lighter;
   font-family: "Ogg";
   text-decoration: 0.5px line-through;
 }
 .project-and-work p {
   color: black;
-  font-size: 20px;
+  font-size: 3vw;
   margin-top: -20px;
   font-weight: lighter;
   font-family: "Inter";
+  padding: 8px;
+  border: 1px dotted #101010;
+  border-radius: 50%;
 }
 .h1-project img {
-  width: 90px;
+  width: 8vw;
 }
 
-@media (max-width: 1200px) {
-  /* .txt-line p {
-    font-size: 100px;
-    letter-spacing: -5px;
-    font-weight: 500;
-  } */
-  /* .line-bottom {
-    margin-top: -200px;
-  } */
-  /* .flower-svg {
-    display: none;
-  } */
+/* @media (max-width: 1200px) {
   .short-about h1 {
     font-size: 100px;
     margin: 0;
@@ -266,52 +275,207 @@
   .skill-set-box {
     margin: 10px 5px;
   }
-}
-@media (max-width: 960px) {
-  /* .txt-line p {
-    font-size: 100px;
-    letter-spacing: -5px;
-    font-weight: 500;
-  } */
-  /* .line-bottom {
-    margin-top: -16vw;
-  } */
+} */
+
+@media (max-width: 930px) {
+  .gapper1 {
+    margin-top: 150px;
+  }
   .container {
-    margin-top: -60px;
-  }
-}
-@media (max-width: 600px) {
-  .short-about p {
-    font-size: 12px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .txt-line p {
-    font-size: 60px;
-    letter-spacing: -2px;
-    font-weight: 500;
-  }
-  .line-bottom {
-    margin-top: -120px;
-  }
-
-  .left-side-quote {
-    margin-left: 10vw;
-  }
-  .left-side-quote p {
-    font-size: 12px;
+    height: 40vw;
   }
   .container1 {
-    padding: 0px 50px;
+    padding: 0 6vw;
+  }
+  .txt-line p {
+    font-size: 13.5vw;
+  }
+  .left-side-quote {
+    margin-left: 7vw;
+  }
+  .flower-svg {
+    margin-left: 7vw;
+    margin-top: -25vw;
+  }
+  .gapper2 {
+    margin-top: 20px;
+  }
+  .sub-main-p-short-about {
+    margin-top: 100px;
   }
   .short-about h1 {
-    font-size: 60px;
-    margin: 0;
-    line-height: 88%;
+    line-height: 180px;
   }
+  .short-about p {
+    line-height: 0vw;
+  }
+}
 
+@media (max-width: 768px) {
+  .txt-line p {
+    font-size: 14vw;
+  }
+  .container {
+    height: 42vw;
+    display: block;
+  }
+  .line-bottom {
+    margin-top: -15vw;
+  }
+  .gapper2 {
+    margin-top: 30px;
+  }
+  .gapper3 {
+    margin-top: 20px;
+  }
+  .flower-svg {
+    margin-top: -41vw;
+  }
+  .container1 {
+    padding: 0 6vw;
+  }
+  .left-side-quote {
+    margin-left: 20vw;
+  }
+  .left-side-quote p {
+    font-size: 1.75vw;
+  }
+  .short-about {
+    margin-top: 60vw;
+  }
+  .short-about h1 {
+    font-size: 12vw;
+  }
+  .short-about p {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 690px) {
+  .txt-line p {
+    font-size: 15vw;
+  }
+  .container {
+    height: 45vw;
+  }
+  .flower-svg {
+    margin-top: -43vw;
+  }
+  .short-about h1 {
+    line-height: 170px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container1 #designer p {
+    display: flex;
+    flex-direction: column;
+    line-height: 10vw;
+    margin-left: 20vw;
+  }
+  .container1 #designer p i {
+    margin-left: 28vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+  }
+  .txt-line p {
+    font-size: 16vw;
+  }
+  .container {
+    height: 60vw;
+  }
+  .line-bottom {
+    margin-top: -24vw;
+  }
+  .gapper2 {
+    margin-top: -30px;
+  }
+  .gapper3 {
+    margin-top: 30px;
+  }
+  .left-side-quote {
+    margin-left: 7vw;
+  }
+  .flower-svg {
+    display: none;
+  }
+  .short-about {
+    margin-top: 20vw;
+  }
   .reel-item {
     font-size: 60px;
+  }
+}
+
+@media (max-width: 520px) {
+  .txt-line p {
+    font-size: 18vw;
+  }
+  .container {
+    height: 70vw;
+  }
+  .container1 #designer p i {
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+  }
+  .line-bottom {
+    margin-top: -33vw;
+  }
+  .left-side-quote p {
+    font-size: 2vw;
+  }
+  .gapper2 {
+    margin-top: -50px;
+  }
+  .gapper3 {
+    margin-top: 60px;
+  }
+  .my-skills-reel {
+    margin-top: 200px;
+  }
+  .project-and-work h1 .h1-project {
+    font-size: 14vw;
+  }
+  .project-and-work p {
+    font-size: 5vw;
+  }
+  .h1-project img {
+    width: 10vw;
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 425px) {
+  .txt-line p {
+    font-size: 20vw;
+  }
+  .container {
+    height: 75vw;
+  }
+  .container1 {
+    padding: 0px 5vw;
+  }
+  .container1 #designer p {
+    margin-left: 13vw;
+  }
+  .container1 #designer p i {
+    margin-left: 30vw;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+  }
+  .left-side-quote p {
+    font-size: 3vw;
+  }
+  .gapper2 {
+    margin-top: -30px;
+  }
+  .gapper3 {
+    margin-top: 70px;
+  }
+  .short-about h1 {
+    font-size: 14vw;
+  }
+  .short-about p {
+    font-size: 2.5vw;
   }
 }

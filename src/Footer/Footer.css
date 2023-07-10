@@ -129,9 +129,18 @@
     margin-right: 0px;
   }
 }
+@media (max-width: 470px) {
+  .footer-menu-h,
+  .footer-menu-links p {
+    display: none;
+  }
+  .footer-container .social-links {
+    margin: 10px;
+  }
+}
 @media (max-width: 400px) {
   .footer {
-    height: 850px;
+    height: 700px;
   }
   .left-footer-bottom p {
     margin-left: 0px;

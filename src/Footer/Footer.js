@@ -7,7 +7,9 @@ function Footer() {
         <div className="footer-container">
           <div className="message-for-users">
             <span>
-              Please contact me in any way <br /> you like
+              Please contact me
+              <br />
+              in any way you like
             </span>
           </div>
           <div className="social-links">
