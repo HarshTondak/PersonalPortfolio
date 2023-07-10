@@ -144,7 +144,7 @@
   white-space: nowrap;
   width: fit-content;
   will-change: transform;
-  animation: animation-reel 12s infinite linear;
+  animation: animation-reel 15s infinite linear;
 }
 
 @keyframes animation-reel {
@@ -152,7 +152,7 @@
     transform: translateX(0%);
   }
   to {
-    transform: translateX(calc(-92%));
+    transform: translateX(94%);
   }
 }
 
