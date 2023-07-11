@@ -104,21 +104,27 @@
 }
 .project-page-item-image1 {
   background-image: url(../Assets/project1.png);
+  filter: grayscale(0.4);
 }
 .project-page-item-image2 {
   background-image: url(../Assets/project2.png);
+  filter: grayscale(0.3);
 }
 .project-page-item-image3 {
   background-image: url(../Assets/project3.png);
+  filter: grayscale(0.3);
 }
 .project-page-item-image4 {
   background-image: url(../Assets/project4.png);
+  filter: grayscale(0.3);
 }
 .project-page-item-image5 {
   background-image: url(../Assets/project5.png);
+  filter: grayscale(0.4);
 }
 .project-page-item-image6 {
   background-image: url(../Assets/project6.png);
+  filter: grayscale(0.3);
 }
 
 @media (max-width: 900px) {

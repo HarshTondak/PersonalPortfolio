@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./Footer.css";
 function Footer() {
   return (
@@ -16,18 +18,34 @@ function Footer() {
             <div className="social-links-h">Social</div>
             <div className="social-links-items">
               {/* <a href="">Youtube</a> */}
-              <a href="">Facebook</a>
-              <a href="">Instagram</a>
-              <a href="">Twitter</a>
-              <a href="">Github</a>
-              <a href="">LinkedIn</a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100012981003950"
+                target="_blank"
+              >
+                Facebook
+              </a>
+              <a href="https://www.instagram.com/tondakharsh/" target="_blank">
+                Instagram
+              </a>
+              <a href="https://twitter.com/harshtondak" target="_blank">
+                Twitter
+              </a>
+              <a href="https://github.com/HarshTondak" target="_blank">
+                Github
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-tondak-a75742202/"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
               {/* <a href="">Snapchat</a> */}
             </div>
           </div>
           <div className="social-links">
             <div className="social-links-h">Contact</div>
             <div className="social-links-items">
-              <a href="">Mail</a>
+              <a href="mailto: tondakharsh@gmail.com">Mail</a>
               <a href="">Whatsapp</a>
               <a href="">Telegram</a>
               <a href="">+91 9650910770</a>
@@ -36,10 +54,18 @@ function Footer() {
           <div className="footer-menu social-links">
             <div className="footer-menu-h social-links-h">Other Menu</div>
             <div className="footer-menu-links social-links-items">
-              <p className="footer-menu-links-items">Home.</p>
-              <p className="footer-menu-links-items">About.</p>
-              <p className="footer-menu-links-items">Projects.</p>
-              <p className="footer-menu-links-items">Contact.</p>
+              <p className="footer-menu-links-items">
+                <Link to="/">Home.</Link>
+              </p>
+              <p className="footer-menu-links-items">
+                <Link to="/about">About.</Link>
+              </p>
+              <p className="footer-menu-links-items">
+                <Link to="/projects">Projects.</Link>
+              </p>
+              <p className="footer-menu-links-items">
+                <Link to="/contact">Contact.</Link>
+              </p>
             </div>
           </div>
           <div className="footer-btn">

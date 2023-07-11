@@ -46,16 +46,16 @@ function Projects() {
           <div className="project-page-items" ref={(el) => (itemsProject = el)}>
             <div className="project-page-item">
               <div className="project-page-item-number">
-                <p>01/06</p>
+                <p>06/23</p>
               </div>
               <a href="https://ffaceb00k.netlify.app/" target="_blank">
                 <div className="project-page-item-header">
-                  <h1>Lorem, ipsum.</h1>
-                  <p>Lorem, ipsum.</p>
+                  <h1>Social Media Website</h1>
+                  <p>FaceBook Clone</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image1"></div>
                 <div className="project-page-item-footer">
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>This is a fully responsive social media website.</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
@@ -63,16 +63,16 @@ function Projects() {
 
             <div className="project-page-item">
               <div className="project-page-item-number">
-                <p>02/06</p>
+                <p>05/23</p>
               </div>
               <a href="https://socioheads.com/" target="_blank">
                 <div className="project-page-item-header">
-                  <h1>Lorem, ipsum.</h1>
-                  <p>Lorem, ipsum.</p>
+                  <h1>SocioHeads</h1>
+                  <p>PR Agency Website</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image2"></div>
                 <div className="project-page-item-footer">
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>This is a marketing website social media agency.</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
@@ -80,16 +80,16 @@ function Projects() {
 
             <div className="project-page-item">
               <div className="project-page-item-number">
-                <p>03/06</p>
+                <p>04/23</p>
               </div>
               <a href="https://dice-roling-game.netlify.app/" target="_blank">
                 <div className="project-page-item-header">
-                  <h1>Lorem, ipsum.</h1>
-                  <p>Lorem, ipsum.</p>
+                  <h1>Dicy</h1>
+                  <p>A Dice Game</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image3"></div>
                 <div className="project-page-item-footer">
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>This is a Dice Game website for two players.</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
@@ -97,16 +97,16 @@ function Projects() {
 
             <div className="project-page-item">
               <div className="project-page-item-number">
-                <p>04/06</p>
+                <p>04/23</p>
               </div>
               <a href="https://numbers-guessing.netlify.app/" target="_blank">
                 <div className="project-page-item-header">
-                  <h1>Lorem, ipsum.</h1>
-                  <p>Lorem, ipsum.</p>
+                  <h1>GuessIt</h1>
+                  <p>A Number Guessing Game</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image4"></div>
                 <div className="project-page-item-footer">
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>This is a Number Guessing Game website.</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
@@ -114,19 +114,19 @@ function Projects() {
 
             <div className="project-page-item">
               <div className="project-page-item-number">
-                <p>05/06</p>
+                <p>01/23</p>
               </div>
               <a
                 href="https://banking-website-page.netlify.app/"
                 target="_blank"
               >
                 <div className="project-page-item-header">
-                  <h1>Lorem, ipsum.</h1>
-                  <p>Lorem, ipsum.</p>
+                  <h1>Bankist</h1>
+                  <p>Bank Website</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image5"></div>
                 <div className="project-page-item-footer">
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>This website is for the Banking Organizations.</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
@@ -134,19 +134,19 @@ function Projects() {
 
             <div className="project-page-item">
               <div className="project-page-item-number">
-                <p>06/06</p>
+                <p>01/23</p>
               </div>
               <a
                 href="https://banking-transaction-app.netlify.app/"
                 target="_blank"
               >
                 <div className="project-page-item-header">
-                  <h1>Lorem, ipsum.</h1>
-                  <p>Lorem, ipsum.</p>
+                  <h1>Transactions</h1>
+                  <p>Bank Transactions</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image6"></div>
                 <div className="project-page-item-footer">
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>This website shows how Bank transactions works.</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
