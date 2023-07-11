@@ -41,13 +41,14 @@ function Projects() {
             projects
           </h1>
         </div>
+
         <div className="project-page-container">
           <div className="project-page-items" ref={(el) => (itemsProject = el)}>
             <div className="project-page-item">
               <div className="project-page-item-number">
                 <p>01/06</p>
               </div>
-              <a href="/">
+              <a href="https://ffaceb00k.netlify.app/" target="_blank">
                 <div className="project-page-item-header">
                   <h1>Lorem, ipsum.</h1>
                   <p>Lorem, ipsum.</p>
@@ -59,11 +60,12 @@ function Projects() {
                 </div>
               </a>
             </div>
+
             <div className="project-page-item">
               <div className="project-page-item-number">
                 <p>02/06</p>
               </div>
-              <a href="/">
+              <a href="https://socioheads.com/" target="_blank">
                 <div className="project-page-item-header">
                   <h1>Lorem, ipsum.</h1>
                   <p>Lorem, ipsum.</p>
@@ -75,11 +77,12 @@ function Projects() {
                 </div>
               </a>
             </div>
+
             <div className="project-page-item">
               <div className="project-page-item-number">
                 <p>03/06</p>
               </div>
-              <a href="/">
+              <a href="https://dice-roling-game.netlify.app/" target="_blank">
                 <div className="project-page-item-header">
                   <h1>Lorem, ipsum.</h1>
                   <p>Lorem, ipsum.</p>
@@ -91,11 +94,12 @@ function Projects() {
                 </div>
               </a>
             </div>
+
             <div className="project-page-item">
               <div className="project-page-item-number">
                 <p>04/06</p>
               </div>
-              <a href="/">
+              <a href="https://numbers-guessing.netlify.app/" target="_blank">
                 <div className="project-page-item-header">
                   <h1>Lorem, ipsum.</h1>
                   <p>Lorem, ipsum.</p>
@@ -107,11 +111,15 @@ function Projects() {
                 </div>
               </a>
             </div>
+
             <div className="project-page-item">
               <div className="project-page-item-number">
                 <p>05/06</p>
               </div>
-              <a href="/">
+              <a
+                href="https://banking-website-page.netlify.app/"
+                target="_blank"
+              >
                 <div className="project-page-item-header">
                   <h1>Lorem, ipsum.</h1>
                   <p>Lorem, ipsum.</p>
@@ -123,11 +131,15 @@ function Projects() {
                 </div>
               </a>
             </div>
+
             <div className="project-page-item">
               <div className="project-page-item-number">
                 <p>06/06</p>
               </div>
-              <a href="/">
+              <a
+                href="https://banking-transaction-app.netlify.app/"
+                target="_blank"
+              >
                 <div className="project-page-item-header">
                   <h1>Lorem, ipsum.</h1>
                   <p>Lorem, ipsum.</p>

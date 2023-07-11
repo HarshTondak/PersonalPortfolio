@@ -3,21 +3,23 @@
 }
 
 .my-projects {
+  margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin-left: 5vw;
   margin-right: 5vw;
-  height: 50vh;
+  height: 600px;
   border-bottom: 1px dashed black;
 }
 .my-projects h1 {
   font-family: "Ogg";
-  font-size: 220px;
+  font-size: 240px;
   font-weight: lighter;
   line-height: 80%;
   text-transform: capitalize;
 }
+
 .project-page a {
   color: #642420;
   text-decoration: none;
@@ -101,45 +103,75 @@
   transform: rotate(270deg);
 }
 .project-page-item-image1 {
-  background-image: url(../Assets/project1.jpg);
+  background-image: url(../Assets/project1.png);
 }
 .project-page-item-image2 {
-  background-image: url(../Assets/project2.jpg);
+  background-image: url(../Assets/project2.png);
 }
 .project-page-item-image3 {
-  background-image: url(../Assets/project3.jpg);
+  background-image: url(../Assets/project3.png);
 }
 .project-page-item-image4 {
-  background-image: url(../Assets/project4.jpg);
+  background-image: url(../Assets/project4.png);
 }
 .project-page-item-image5 {
-  background-image: url(../Assets/project5.jpg);
+  background-image: url(../Assets/project5.png);
 }
 .project-page-item-image6 {
-  background-image: url(../Assets/project6.jpg);
+  background-image: url(../Assets/project6.png);
 }
 
 @media (max-width: 900px) {
   .my-projects {
-    height: 40vh;
+    height: 500px;
   }
   .my-projects h1 {
-    font-size: 120px;
+    font-size: 190px;
   }
   .project-page-item {
     padding: 50px;
   }
 }
-@media (max-width: 500px) {
+
+@media (max-width: 750px) {
   .my-projects {
-    height: 30vh;
-    margin-top: 100px;
+    height: 400px;
   }
   .my-projects h1 {
-    font-size: 80px;
+    font-size: 160px;
   }
+}
 
+@media (max-width: 600px) {
+  .my-projects {
+    height: 450px;
+  }
+  .my-projects h1 {
+    font-size: 130px;
+    line-height: 100%;
+  }
+  .my-projects {
+    height: 450px;
+  }
+}
+
+@media (max-width: 465px) {
+  .my-projects h1 {
+    font-size: 27vw;
+  }
   .project-page-item {
-    height: 300px;
+    padding: 50px 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .my-projects {
+    height: 100vw;
+  }
+  .project-page-item {
+    padding: 50px 20px;
+  }
+  .project-page-item-image {
+    height: 80vw;
   }
 }

@@ -10,16 +10,17 @@ function About() {
   let text2 = useRef(null);
   let image = useRef(null);
   let p1 = useRef(null);
+  let p2 = useRef(null);
   const timeline_about = gsap.timeline();
   useEffect(() => {
     timeline_about.from(
       [text1, text2],
       {
-        duration: 0.8,
-        y: 500,
+        duration: 1,
+        y: 700,
         skewY: 10,
         stagger: {
-          amount: 0.4,
+          amount: 0.5,
         },
       },
       "-=.5"
@@ -34,8 +35,8 @@ function About() {
       },
       "-=.5"
     );
-    timeline_about.from(p1, {
-      duration: 0.5,
+    timeline_about.from([p1, p2], {
+      duration: 0.8,
       x: 200,
       skewX: 10,
       opacity: 0,
@@ -63,7 +64,7 @@ function About() {
               emotions.
             </div>
             <div
-              ref={(el) => (p1 = el)}
+              ref={(el) => (p2 = el)}
               className="container-quote container-quote2"
             >
               I specialize in creating <br /> creative and interactive websites{" "}
