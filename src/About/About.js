@@ -55,15 +55,17 @@ function About() {
                 <p ref={(el) => (text2 = el)}>Harsh</p>
               </div>
             </div>
-            <di
+            <div
               ref={(el) => (p1 = el)}
-              v
               className="container-quote container-quote1"
             >
               I create sites and <br /> applications that cause <br /> pleasant
               emotions.
-            </di>
-            <div className="container-quote container-quote2">
+            </div>
+            <div
+              ref={(el) => (p1 = el)}
+              className="container-quote container-quote2"
+            >
               I specialize in creating <br /> creative and interactive websites{" "}
               <br /> and applications.
             </div>
@@ -106,10 +108,12 @@ function About() {
                 Honours at University of Delhi from Deen Dayal Upadhyaya
                 College.
               </p>
+
               <p>
                 I have good Logical reasoning, and critical thinking abilities.{" "}
                 <br /> I have experiences of organizing events.
               </p>
+
               <p>
                 I am very interested in WEB Designing and it's amazing
                 applications in our day-to-day lives.
