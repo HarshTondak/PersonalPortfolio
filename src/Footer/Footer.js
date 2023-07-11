@@ -69,7 +69,7 @@ function Footer() {
             </div>
           </div>
           <div className="footer-btn">
-            <a href="" className="footer-btn-a">
+            <a href="mailto: tondakharsh@gmail.com" className="footer-btn-a">
               Get Started!
             </a>
           </div>

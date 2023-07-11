@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 25vw;
   height: fit-content;
   flex-wrap: wrap;
   width: 80%;
@@ -15,19 +14,33 @@
 .contact-page-container h1 {
   word-spacing: 10px;
   letter-spacing: 80%;
-  font-size: 15vw;
+  font-size: 17vw;
   font-weight: lighter;
   font-family: "Ogg";
   line-height: 14vw;
 }
 
+.contact-page-container a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: #642420;
+  font-size: 3vw;
+  font-weight: 900;
+  margin-top: -40%;
+  margin-left: 80%;
+  padding-bottom: -40%;
+  margin-bottom: 5%;
+  padding: 10px;
+  border: 1px dashed #642420;
+  border-radius: 50%;
+}
+
 .contact-page-container h1 img {
   position: absolute;
-  top: 18vw;
-  right: 25vw;
-  width: 100px;
-  /* margin-left: 50px;
-  margin-bottom: 100px; */
+  top: 22.5vw;
+  right: 20vw;
+  width: 12vw;
   animation: animate-rotate 10s infinite linear;
 }
 
@@ -40,17 +53,37 @@
   }
 }
 
-@media (max-width: 900px) {
-  .contact-page-container h1 {
-    font-size: 100px;
-    line-height: 88%;
+@media (max-width: 768px) {
+  .contact-page-container {
+    margin: 15% 10%;
   }
-}
-@media (max-width: 500px) {
-  .contact-page-container h1 {
-    font-size: 80px;
+  .contact-page-container a {
+    margin-left: 70%;
+    margin-top: 0%;
   }
   .contact-page-container h1 img {
-    width: 50px;
+    top: 20vw;
+    right: 15vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact-page-container {
+    margin: 30% 10%;
+  }
+  .contact-page-container h1 {
+    font-size: 20vw;
+    line-height: 18vw;
+  }
+  .contact-page-container a {
+    margin-left: 69%;
+    margin-top: 0%;
+    font-size: 4vw;
+  }
+  .contact-page-container h1 img {
+    top: 28vw;
+    right: 8vw;
+    width: 20vw;
   }
 }

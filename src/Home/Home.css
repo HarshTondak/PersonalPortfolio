@@ -42,6 +42,7 @@
 }
 .line-bottom {
   margin-top: -14vw;
+  font-style: italic;
 }
 
 .container1 #designer p i {
@@ -240,7 +241,7 @@
   font-weight: lighter;
   font-family: "Inter";
   padding: 8px;
-  border: 1px dotted #101010;
+  border: 1px dashed #101010;
   border-radius: 50%;
 }
 .h1-project img {

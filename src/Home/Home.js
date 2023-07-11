@@ -45,10 +45,10 @@ function Home() {
       <div className="container">
         <div className="container1">
           <div className="txt-line" id="tondak">
-            <p ref={(el) => (text1 = el)}>Tondak</p>
+            <p ref={(el) => (text1 = el)}>Harsh</p>
           </div>
           <div className="txt-line line-bottom" id="harsh">
-            <p ref={(el) => (text2 = el)}>Harsh</p>
+            <p ref={(el) => (text2 = el)}>Tondak</p>
           </div>
         </div>
         <div></div>
@@ -120,13 +120,13 @@ function Home() {
             <p>___</p>
           </div>
 
-          <div className="skill-set-box">
+          {/* <div className="skill-set-box">
             <h1 className="skill-set-box-h1">DSA</h1>
             <p className="skill-set-box-p">
               I use them to solve problems more efficiently
             </p>
             <p>___</p>
-          </div>
+          </div> */}
 
           <div className="skill-set-box">
             <h1 className="skill-set-box-h1">HTML5</h1>
@@ -177,14 +177,14 @@ function Home() {
             <p>___</p>
           </div> */}
 
-          <div className="skill-set-box">
+          {/* <div className="skill-set-box">
             <h1 className="skill-set-box-h1">Sass</h1>
             <p className="skill-set-box-p">
               I prefer this also instead of CSS beacouse of advance
               functionalities
             </p>
             <p>___</p>
-          </div>
+          </div> */}
 
           <div className="skill-set-box">
             <h1 className="skill-set-box-h1">Node.js</h1>

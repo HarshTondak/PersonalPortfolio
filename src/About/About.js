@@ -50,10 +50,10 @@ function About() {
           <div className="about-container">
             <div className="container-text">
               <div className="container-inner-text1">
-                <p ref={(el) => (text1 = el)}>Tondak</p>
+                <p ref={(el) => (text1 = el)}>Harsh</p>
               </div>
               <div className="container-inner-text2">
-                <p ref={(el) => (text2 = el)}>Harsh</p>
+                <p ref={(el) => (text2 = el)}>Tondak</p>
               </div>
             </div>
             <div

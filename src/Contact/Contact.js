@@ -28,8 +28,10 @@ function Contact() {
       <div className="contact-page">
         <div className="contact-page-container">
           <h1 ref={(el) => (text1 = el)}>
-            Let's talk about <br /> the project? <img src={flower} alt="" />
+            Let's talk about <br /> the Project?
+            <img src={flower} alt="" />
           </h1>
+          <a href="mailto:tondakharsh@gmail.com">Click Me</a>
         </div>
       </div>
       <Footer />

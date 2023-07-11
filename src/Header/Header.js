@@ -53,6 +53,7 @@ function Header({ timeline }) {
             <a
               href="https://www.linkedin.com/in/harsh-tondak-a75742202/"
               className="li"
+              target="_blank"
             >
               LinkedIn
             </a>
