@@ -6,6 +6,14 @@ import "./About.css";
 import gsap from "gsap";
 import flower from "../Assets/flower.svg";
 function About() {
+  // var docWidth = document.documentElement.offsetWidth;
+
+  // [].forEach.call(document.querySelectorAll("*"), function (el) {
+  //   if (el.offsetWidth > docWidth) {
+  //     console.log(el);
+  //   }
+  // });
+
   let text1 = useRef(null);
   let text2 = useRef(null);
   let image = useRef(null);

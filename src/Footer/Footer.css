@@ -91,7 +91,7 @@
   white-space: nowrap;
   width: fit-content;
   will-change: transform;
-  animation: animation-reel 20s infinite linear;
+  animation: animation-reel 15s infinite linear;
 }
 /* .footer-ticker- {
 } */
@@ -133,6 +133,9 @@
   }
   .right-footer-bottom {
     margin-right: 0px;
+  }
+  .footer-ticker {
+    display: none;
   }
 }
 @media (max-width: 470px) {

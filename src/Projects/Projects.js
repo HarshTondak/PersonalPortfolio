@@ -16,7 +16,7 @@ function Projects() {
         duration: 1,
         skewY: 10,
         y: 500,
-        delay: 2,
+        delay: 1,
         stagger: {
           amount: 0.4,
         },
