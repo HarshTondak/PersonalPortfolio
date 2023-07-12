@@ -23,6 +23,9 @@
   font-weight: lighter;
   /* margin: 20px; */
 }
+.highlight {
+  /* margin-top: auto; */
+}
 .footer-container .social-links {
   display: flex;
   justify-content: center;
@@ -49,9 +52,12 @@
   font-size: 15px;
   font-weight: lighter;
   cursor: pointer;
-  margin-top: 5px;
+  margin-top: 10px;
   border-bottom: 1px dashed transparent;
   transition: border 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.footer p {
+  margin-bottom: 0;
 }
 .footer-container p:hover,
 .footer-container a:hover {

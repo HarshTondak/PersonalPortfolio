@@ -15,7 +15,7 @@ function Footer() {
             </span>
           </div>
           <div className="social-links">
-            <div className="social-links-h">Social</div>
+            <div className="social-links-h highlight">Social</div>
             <div className="social-links-items">
               {/* <a href="">Youtube</a> */}
               <a
@@ -43,7 +43,7 @@ function Footer() {
             </div>
           </div>
           <div className="social-links">
-            <div className="social-links-h">Contact</div>
+            <div className="social-links-h highlight">Contact</div>
             <div className="social-links-items">
               <a href="mailto: tondakharsh@gmail.com">Mail</a>
               <a href="">Whatsapp</a>
@@ -52,7 +52,9 @@ function Footer() {
             </div>
           </div>
           <div className="footer-menu social-links">
-            <div className="footer-menu-h social-links-h">Other Menu</div>
+            <div className="footer-menu-h social-links-h highlight">
+              Other Menu
+            </div>
             <div className="footer-menu-links social-links-items">
               <p className="footer-menu-links-items">
                 <Link to="/">Home.</Link>

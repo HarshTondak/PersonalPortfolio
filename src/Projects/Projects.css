@@ -153,7 +153,7 @@
     height: 450px;
   }
   .my-projects h1 {
-    font-size: 130px;
+    font-size: 120px;
     line-height: 100%;
   }
   .my-projects {
@@ -163,7 +163,7 @@
 
 @media (max-width: 465px) {
   .my-projects h1 {
-    font-size: 27vw;
+    font-size: 25vw;
   }
   .project-page-item {
     padding: 50px 30px;

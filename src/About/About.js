@@ -80,12 +80,10 @@ function About() {
                 <p>Web Designer,</p>
               </div>
               <div className="about-text-lower">
-                <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full-Stack
-                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full-Stack</p>
               </div>
               <div className="about-text-lower">
-                <p>&nbsp;Web&nbsp;Developer</p>
+                <p>Web&nbsp;Developer</p>
               </div>
               <div className="about-text-lower">
                 <p>&nbsp;& a Learner</p>

@@ -17,7 +17,7 @@
   font-size: 17vw;
   font-weight: lighter;
   font-family: "Ogg";
-  line-height: 14vw;
+  line-height: 16vw;
 }
 
 .contact-page-container a {
@@ -38,9 +38,9 @@
 
 .contact-page-container h1 img {
   position: absolute;
-  top: 22.5vw;
-  right: 20vw;
-  width: 12vw;
+  top: 22vw;
+  right: 11vw;
+  width: 18vw;
   animation: animate-rotate 10s infinite linear;
 }
 
@@ -58,14 +58,14 @@
     margin: 15% 10%;
   }
   .contact-page-container a {
-    margin-left: 70%;
+    margin-left: 65%;
     margin-top: 0%;
   }
-  .contact-page-container h1 img {
-    top: 20vw;
-    right: 15vw;
+  /* .contact-page-container h1 img {
+    top: 22vw;
+    right: 11vw;
     width: 18vw;
-  }
+  } */
 }
 
 @media (max-width: 425px) {
@@ -74,16 +74,14 @@
   }
   .contact-page-container h1 {
     font-size: 20vw;
-    line-height: 18vw;
+    line-height: 20vw;
   }
   .contact-page-container a {
-    margin-left: 69%;
-    margin-top: 0%;
     font-size: 4vw;
   }
   .contact-page-container h1 img {
-    top: 28vw;
+    top: 12vw;
     right: 8vw;
-    width: 20vw;
+    width: 18vw;
   }
 }

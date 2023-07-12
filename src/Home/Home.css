@@ -16,7 +16,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  height: 36vw;
+  height: 40vw;
   width: 100%;
   margin-top: -80px;
 }
@@ -34,11 +34,11 @@
 .txt-line p {
   font-size: 12vw;
   text-transform: capitalize;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
   font-family: "Ogg";
   overflow: hidden;
   height: 100%;
-  line-height: 90%;
+  line-height: 120%;
 }
 .line-bottom {
   margin-top: -14vw;
@@ -76,12 +76,12 @@
 }
 
 .flower-svg {
-  margin-left: 9vw;
-  margin-top: -22.5vw;
+  margin-left: 6vw;
+  margin-top: -20.5vw;
 }
 .flower-svg img {
   animation: animate-rotate 30s infinite linear;
-  width: 8vw;
+  width: 9vw;
 }
 
 .short-about {
@@ -223,7 +223,7 @@
   margin-bottom: 100px;
   flex-direction: column;
   height: 30vh;
-  padding-bottom: 9vw;
+  padding-bottom: 11vw;
   border-bottom: 1px dashed black;
 }
 .project-and-work h1 .h1-project {
@@ -248,42 +248,12 @@
   width: 8vw;
 }
 
-/* @media (max-width: 1200px) {
-  .short-about h1 {
-    font-size: 100px;
-    margin: 0;
-    line-height: 88%;
-  }
-  .short-about p {
-    margin-top: 5px;
-    font-weight: 300;
-  }
-  .sub-main-p-short-about {
-    margin-top: 10px;
-  }
-  .reel-item {
-    font-size: 100px;
-  }
-  .project-and-work h1 .h1-project {
-    font-size: 50px;
-  }
-  .project-and-work h1 .h1-project img {
-    width: 30px;
-  }
-  .project-and-work p {
-    margin-top: -30px;
-  }
-  .skill-set-box {
-    margin: 10px 5px;
-  }
-} */
-
 @media (max-width: 930px) {
   .gapper1 {
     margin-top: 150px;
   }
   .container {
-    height: 40vw;
+    height: 44vw;
   }
   .container1 {
     padding: 0 6vw;
@@ -295,8 +265,8 @@
     margin-left: 7vw;
   }
   .flower-svg {
-    margin-left: 7vw;
-    margin-top: -25vw;
+    margin-left: 70vw;
+    margin-top: -28vw;
   }
   .gapper2 {
     margin-top: 20px;
@@ -314,10 +284,10 @@
 
 @media (max-width: 768px) {
   .txt-line p {
-    font-size: 14vw;
+    font-size: 13.5vw;
   }
   .container {
-    height: 42vw;
+    height: 48vw;
     display: block;
   }
   .line-bottom {
@@ -330,7 +300,10 @@
     margin-top: 20px;
   }
   .flower-svg {
-    margin-top: -41vw;
+    margin-top: -50vw;
+  }
+  .flower-svg img {
+    width: 13vw;
   }
   .container1 {
     padding: 0 6vw;
@@ -354,13 +327,10 @@
 
 @media (max-width: 690px) {
   .txt-line p {
-    font-size: 15vw;
+    font-size: 14vw;
   }
   .container {
-    height: 45vw;
-  }
-  .flower-svg {
-    margin-top: -43vw;
+    height: 50vw;
   }
   .short-about h1 {
     line-height: 170px;
@@ -406,6 +376,12 @@
   .reel-item {
     font-size: 60px;
   }
+  .project-and-work h1 .h1-project {
+    font-size: 12vw;
+  }
+  .h1-project img {
+    transform: rotate(90deg);
+  }
 }
 
 @media (max-width: 520px) {
@@ -416,11 +392,12 @@
     height: 70vw;
   }
   .container1 #designer p i {
-    margin-top: 8vw;
-    margin-bottom: 3vw;
+    margin-left: 20vw;
+    margin-top: 6vw;
+    margin-bottom: 5vw;
   }
   .line-bottom {
-    margin-top: -33vw;
+    margin-top: -30vw;
   }
   .left-side-quote p {
     font-size: 2vw;
@@ -435,14 +412,14 @@
     margin-top: 200px;
   }
   .project-and-work h1 .h1-project {
-    font-size: 14vw;
+    font-size: 13vw;
   }
   .project-and-work p {
     font-size: 5vw;
   }
   .h1-project img {
     width: 10vw;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
   }
 }
 
@@ -451,7 +428,7 @@
     font-size: 20vw;
   }
   .container {
-    height: 75vw;
+    height: 80vw;
   }
   .container1 {
     padding: 0px 5vw;
@@ -460,9 +437,12 @@
     margin-left: 13vw;
   }
   .container1 #designer p i {
-    margin-left: 30vw;
-    margin-top: 5vw;
-    margin-bottom: 4vw;
+    margin-left: 24vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+  }
+  .line-bottom {
+    margin-top: -35vw;
   }
   .left-side-quote p {
     font-size: 3vw;

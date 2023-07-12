@@ -216,8 +216,8 @@ function Home() {
               My Projects and Works <img src={arrow} alt="" />
             </Link>
           </h1>
-          <br />
-          <p>Click me!</p>
+          {/* <br /> */}
+          <p>Click!</p>
         </div>
         <GetInTouch />
         <Footer />

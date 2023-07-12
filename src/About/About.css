@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   letter-spacing: -7px;
-  line-height: 17vw;
+  line-height: 19vw;
 }
 .container-text p {
   overflow: hidden;
@@ -75,9 +75,9 @@
 }
 .about-container2-heading p,
 .about-container2-heading2 p {
-  font-size: 16vw;
+  font-size: 15vw;
   font-family: "Ogg";
-  line-height: 0%;
+  line-height: 10%;
   font-weight: lighter;
   letter-spacing: -8px;
 }
@@ -105,7 +105,7 @@
 
 .about-container-flower {
   position: absolute;
-  top: 26.5vw;
+  top: 25.25vw;
   left: 8%;
   animation: animate-rotate 10s infinite linear;
 }
@@ -141,7 +141,11 @@
   .container-text {
     margin-top: -6vw;
     font-size: 18vw;
-    line-height: 14vw;
+    line-height: 20vw;
+    letter-spacing: -5px;
+  }
+  .container-inner-text2 {
+    margin-top: -38vw;
   }
   .container-quote {
     top: 50vw;
@@ -172,7 +176,10 @@
     margin-top: -3vw;
     margin-left: 5%;
     font-size: 20vw;
-    line-height: 15vw;
+    line-height: 22vw;
+  }
+  .container-inner-text2 {
+    margin-top: -42vw;
   }
   .container-quote {
     top: 60vw;
@@ -190,6 +197,10 @@
     top: 90vw;
     left: 4%;
   }
+  .about-container-flower {
+    top: 24.5vw;
+    left: 9.5%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -200,12 +211,13 @@
     margin-top: 360vw;
   }
   .container-text {
-    margin-top: -2vw;
+    margin-top: -6vw;
     font-size: 22vw;
-    letter-spacing: -5px;
+    line-height: 24vw;
+    letter-spacing: -4px;
   }
   .container-inner-text2 {
-    margin-top: -40vw;
+    margin-top: -46vw;
   }
   .container-quote {
     top: 70vw;
@@ -224,10 +236,11 @@
   }
   .about-container2-heading p,
   .about-container2-heading2 p {
-    font-size: 17vw;
+    font-size: 15vw;
+    letter-spacing: -5px;
   }
   .about-container-flower {
-    top: 28.5vw;
+    top: 25vw;
     left: 9.5%;
   }
   .about-container2-p p {
@@ -246,11 +259,11 @@
   }
   .container-text {
     margin-top: 0vw;
-    font-size: 25vw;
-    line-height: 18vw;
+    font-size: 24vw;
+    line-height: 26vw;
   }
   .container-inner-text2 {
-    margin-top: -44vw;
+    margin-top: -48vw;
   }
   .container-quote {
     top: 90vw;
@@ -266,15 +279,15 @@
   }
   .about-container2-heading p,
   .about-container2-heading2 p {
-    font-size: 18vw;
-    letter-spacing: -8px;
+    font-size: 14vw;
+    /* letter-spacing: -8px; */
   }
   .about-container-flower {
-    top: 30vw;
-    left: 9%;
+    top: 22vw;
+    left: 10%;
   }
   .about-container-flower img {
-    width: 12vw;
+    width: 11vw;
   }
   .about-container2-p p {
     font-size: 2.25vw;
@@ -304,23 +317,6 @@
     top: 190vw;
     left: 5%;
   }
-  /* .about-container2-heading p,
-  .about-container2-heading2 p {
-    font-size: 18vw;
-    letter-spacing: -8px;
-  }
-  .about-container-flower {
-    top: 30vw;
-    left: 9%;
-  }
-  .about-container-flower img {
-    width: 12vw;
-  }
-  .about-container2-p p {
-    font-size: 2.25vw;
-    word-spacing: 5px;
-    margin-bottom: 60px;
-  } */
 }
 
 @media (max-width: 390px) {
@@ -331,7 +327,7 @@
     margin-top: 480vw;
   }
   .container-text {
-    font-size: 27vw;
+    /* font-size: 25vw; */
     letter-spacing: -3px;
   }
   .container-quote {
@@ -350,14 +346,7 @@
   }
   .about-container2-heading p,
   .about-container2-heading2 p {
-    letter-spacing: -6px;
-  }
-  .about-container-flower {
-    top: 30vw;
-    left: 9%;
-  }
-  .about-container-flower img {
-    width: 12vw;
+    letter-spacing: -2px;
   }
   .about-container2-p p {
     font-size: 2.5vw;
