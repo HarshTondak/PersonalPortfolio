@@ -1,15 +1,24 @@
+@font-face {
+  font-family: Ogg;
+  src: url(./Assets/fonts/Ogg-Regular.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(./Assets/fonts/Inter-Regular.ttf);
+}
 
-html, body{
+html,
+body {
   height: 0;
 }
-body{
+body {
   background-color: #e9dbd4;
 }
-.App{
+.App {
   margin: 0;
   padding: 0;
 }
-.noise::before{
+.noise::before {
   position: fixed;
   top: 0;
   left: 0;
@@ -17,47 +26,46 @@ body{
   height: 100vh;
   content: "";
   /* opacity: 1; */
-  opacity: .03;
+  opacity: 0.03;
   z-index: 1500;
   pointer-events: none;
   background: url(./Assets/noise.gif);
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
-.cursor-follower{
+.cursor-follower {
   position: absolute;
-  background: url(Assets/Red_asterisk.svg) no-repeat 50% 50% ;
+  background: url(Assets/Red_asterisk.svg) no-repeat 50% 50%;
   background-size: cover;
   height: 70px;
   width: 70px;
   animation: animate-rotate 10s infinite linear;
   z-index: 1500;
   user-select: none;
-  opacity: .8;
+  opacity: 0.8;
   mix-blend-mode: multiply;
   overflow: hidden;
   pointer-events: none;
   transform: translate(35px, 35px);
 }
 @keyframes animate-rotate {
-  to{
+  to {
     transform: rotate(0deg);
   }
-  from{
+  from {
     transform: rotate(360deg);
   }
 }
 
 @media (max-width: 768px) {
-  .cursor-follower{
+  .cursor-follower {
     display: none;
   }
 }
 
-
-.loader{
+.loader {
   margin: 0;
   padding: 0;
   position: fixed;
@@ -67,9 +75,8 @@ body{
   height: 100vh;
   z-index: 1200;
   background-color: #e9dbd4;
-
 }
-.progress{
+.progress {
   margin: 0;
   padding: 0;
   position: absolute;
@@ -81,7 +88,7 @@ body{
   width: 100%;
   flex-direction: column;
 }
-#percent{
+#percent {
   margin: 0;
   padding: 0;
   position: absolute;
@@ -90,15 +97,15 @@ body{
   margin-bottom: 50px;
   color: black;
   font-size: 100px;
-  font-family: 'Ogg';
+  font-family: Ogg;
 }
-#bar{
+#bar {
   margin: 0;
   padding: 0;
   width: 80%;
   margin-top: 20px;
 }
-#barc{
+#barc {
   margin: 0;
   padding: 0;
   width: 1%;

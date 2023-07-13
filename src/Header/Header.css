@@ -1,10 +1,18 @@
+@font-face {
+  font-family: Ogg;
+  src: url(../Assets/fonts/Ogg-Regular.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(../Assets/fonts/Inter-Regular.ttf);
+}
+
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   height: 60px;
@@ -13,10 +21,10 @@ header {
 }
 #logo {
   font-size: 1.2vw;
-  font-family: "Inter";
+  font-family: Inter;
   transition: 0.6s ease-in-out;
   font-weight: bold;
-  font-family: "Ogg";
+  font-family: Ogg;
 }
 .toggle-menu {
   display: none;
@@ -32,7 +40,7 @@ header {
 }
 .menu-items li,
 .li {
-  font-family: "Inter";
+  font-family: Inter;
   margin-top: 10px;
   text-transform: uppercase;
   font-size: 20px;

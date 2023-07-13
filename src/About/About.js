@@ -43,7 +43,13 @@ function About() {
       },
       "-=.5"
     );
-    timeline_about.from([p1, p2], {
+    timeline_about.from(p1, {
+      duration: 0.8,
+      x: -200,
+      skewX: 10,
+      opacity: 0,
+    });
+    timeline_about.from(p2, {
       duration: 0.8,
       x: 200,
       skewX: 10,

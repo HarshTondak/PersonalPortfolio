@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Ogg;
+  src: url(../Assets/fonts/Ogg-Regular.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(../Assets/fonts/Inter-Regular.ttf);
+}
+
 .contact {
   overflow-x: hidden;
 }
@@ -16,7 +25,7 @@
   letter-spacing: 80%;
   font-size: 17vw;
   font-weight: lighter;
-  font-family: "Ogg";
+  font-family: Ogg;
   line-height: 16vw;
 }
 

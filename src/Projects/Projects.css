@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Ogg;
+  src: url(../Assets/fonts/Ogg-Regular.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(../Assets/fonts/Inter-Regular.ttf);
+}
+
 .project {
   overflow-x: hidden;
 }
@@ -13,7 +22,7 @@
   border-bottom: 1px dashed black;
 }
 .my-projects h1 {
-  font-family: "Ogg";
+  font-family: Ogg;
   font-size: 240px;
   font-weight: lighter;
   line-height: 80%;
@@ -50,7 +59,7 @@
 .project-page-item-number p {
   font-size: 10px;
   font-weight: 500;
-  font-family: "Inter";
+  font-family: Inter;
 }
 .project-page-item-header {
   display: flex;
@@ -62,13 +71,13 @@
   font-size: 15px;
   font-weight: bold;
   width: 50%;
-  font-family: "Inter";
+  font-family: Inter;
   text-transform: uppercase;
 }
 .project-page-item-header p {
   font-size: 10px;
   font-weight: 500;
-  font-family: "Inter";
+  font-family: Inter;
   width: 50%;
   text-transform: uppercase;
 }
@@ -94,7 +103,7 @@
 .project-page-item-footer p {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Inter";
+  font-family: Inter;
   text-transform: uppercase;
 }
 .project-page-item-footer img {

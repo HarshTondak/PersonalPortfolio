@@ -1,5 +1,10 @@
-* {
-  font-family: "Ogg";
+@font-face {
+  font-family: Ogg;
+  src: url(../Assets/fonts/Ogg-Regular.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(../Assets/fonts/Inter-Regular.ttf);
 }
 
 .gapper1 {
@@ -35,7 +40,7 @@
   font-size: 12vw;
   text-transform: capitalize;
   letter-spacing: -3px;
-  font-family: "Ogg";
+  font-family: Ogg;
   overflow: hidden;
   height: 100%;
   line-height: 120%;
@@ -56,7 +61,7 @@
 }
 .right-side-menu p {
   font-size: 20px;
-  font-family: "Inter";
+  font-family: Inter;
   color: #642420;
   cursor: pointer;
   font-weight: lighter;
@@ -68,7 +73,7 @@
 .left-side-quote p {
   color: black;
   font-size: 1.5vw;
-  font-family: "Inter";
+  font-family: Inter;
   word-spacing: 10px;
   text-transform: uppercase;
   font-weight: 300;
@@ -100,7 +105,7 @@
 .short-about h1 {
   font-size: 10vw;
   font-weight: 500;
-  font-family: "Ogg";
+  font-family: Ogg;
   margin-bottom: -150px;
   letter-spacing: -2px;
   text-align: center;
@@ -109,7 +114,7 @@
 .short-about p {
   text-align: center;
   color: #642420;
-  font-family: "Inter";
+  font-family: Inter;
   font-weight: 500;
   font-size: 1.5vw;
   margin-top: 30px;
@@ -146,19 +151,18 @@
   will-change: transform;
   animation: animation-reel 15s infinite linear;
 }
-
 @keyframes animation-reel {
   from {
     transform: translateX(0%);
   }
   to {
-    transform: translateX(94%);
+    transform: translateX(100%);
   }
 }
 
 .reel-item {
   font-weight: 400;
-  font-family: "Ogg";
+  font-family: Ogg;
   font-size: 18vw;
   text-transform: uppercase;
 }
@@ -198,7 +202,7 @@
 .skill-set-box h1,
 .skill-set-box p {
   margin: 0px 30px;
-  font-family: "Inter";
+  font-family: Inter;
   font-weight: lighter;
   text-transform: uppercase;
 }
@@ -230,7 +234,7 @@
   color: black;
   font-size: 10vw;
   font-weight: lighter;
-  font-family: "Ogg";
+  font-family: Ogg;
   text-decoration: 0.5px line-through;
 }
 .project-and-work p {
@@ -238,7 +242,7 @@
   font-size: 3vw;
   margin-top: -20px;
   font-weight: lighter;
-  font-family: "Inter";
+  font-family: Inter;
   padding: 8px;
   border: 1px dashed #101010;
   border-radius: 50%;
