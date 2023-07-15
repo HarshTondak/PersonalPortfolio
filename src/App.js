@@ -7,6 +7,7 @@ import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
 import gsap from "gsap";
+
 function App() {
   let cursor = useRef(null);
   let posX1 = useRef(null);

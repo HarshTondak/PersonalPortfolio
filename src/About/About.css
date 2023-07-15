@@ -56,6 +56,7 @@
   width: 50vw;
   background: url(../Assets/profile.jpg) 50% 50% no-repeat;
   background-size: cover;
+  overflow: hidden;
   filter: grayscale(1);
   height: 80vw;
   z-index: -1;
@@ -115,8 +116,8 @@
 
 .about-container-flower {
   position: absolute;
-  top: 25.25vw;
-  left: 8%;
+  top: 26vw;
+  left: 5%;
   animation: animate-rotate 10s infinite linear;
 }
 .about-container-flower img {
@@ -164,7 +165,7 @@
     word-spacing: 6px;
   }
   .container-image {
-    top: 68vw;
+    top: 70vw;
   }
   .container-quote2 {
     top: 112vw;
@@ -198,7 +199,7 @@
     word-spacing: 4px;
   }
   .container-image {
-    top: 80vw;
+    top: 83vw;
     left: 60%;
     height: 90vw;
     width: 55vw;
@@ -208,8 +209,8 @@
     left: 4%;
   }
   .about-container-flower {
-    top: 24.5vw;
-    left: 9.5%;
+    top: 26.5vw;
+    left: 7%;
   }
 }
 
@@ -236,7 +237,7 @@
     font-weight: 600;
   }
   .container-image {
-    top: 105vw;
+    top: 107vw;
     height: 92vw;
     width: 57vw;
   }
@@ -250,8 +251,7 @@
     letter-spacing: -5px;
   }
   .about-container-flower {
-    top: 25vw;
-    left: 9.5%;
+    left: 6%;
   }
   .about-container2-p p {
     font-size: 2vw;
@@ -276,7 +276,7 @@
     margin-top: -48vw;
   }
   .container-quote {
-    top: 90vw;
+    top: 96vw;
   }
   .container-image {
     top: 125vw;
@@ -284,7 +284,7 @@
     width: 60vw;
   }
   .container-quote2 {
-    top: 125vw;
+    top: 175vw;
     left: 5%;
   }
   .about-container2-heading p,
@@ -293,8 +293,8 @@
     letter-spacing: -4px;
   }
   .about-container-flower {
-    top: 22vw;
-    left: 10%;
+    top: 26vw;
+    left: 5%;
   }
   .about-container-flower img {
     width: 11vw;
@@ -325,7 +325,6 @@
   }
   .container-quote2 {
     top: 190vw;
-    left: 5%;
   }
   .about-container2-heading p,
   .about-container2-heading2 p {

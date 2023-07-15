@@ -86,11 +86,11 @@
   margin-left: 80px;
 }
 .right-footer-bottom {
-  margin-right: 50px;
+  padding-right: 50px;
 }
 .footer-ticker {
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: white;
   display: flex;
   align-items: center;

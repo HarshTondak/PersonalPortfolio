@@ -8,7 +8,9 @@ import { Link } from "react-router-dom";
 import GetInTouch from "../GetInTouch/GetInTouch";
 import Footer from "../Footer/Footer";
 import gsap from "gsap";
+
 function Home() {
+  const containerRef = useRef(null);
   let text1 = useRef(null);
   let text2 = useRef(null);
   let text3 = useRef(null);
@@ -37,7 +39,7 @@ function Home() {
     });
   });
   return (
-    <div className="home">
+    <div className="data-scroll-section home">
       <div className="gapper1"></div>
 
       <Header timeline={timeline_home} />

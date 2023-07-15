@@ -17,6 +17,7 @@ body {
 .App {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 .noise::before {
   position: fixed;
@@ -25,11 +26,11 @@ body {
   width: 100vw;
   height: 100vh;
   content: "";
-  /* opacity: 1; */
   opacity: 0.03;
   z-index: 1500;
   pointer-events: none;
   background: url(./Assets/noise.gif);
+  /* background-repeat: no-repeat; */
 }
 ::-webkit-scrollbar {
   display: none;
