@@ -51,7 +51,7 @@ header {
   cursor: pointer;
   margin-left: 20px;
   mix-blend-mode: difference;
-  text-shadow: 1px 2px 2px #e7c0ac;
+  text-shadow: 1px 2px 2px #e7d3c9;
 }
 .li:hover::before {
   opacity: 1;
@@ -99,6 +99,7 @@ header {
     font-size: 15px;
     padding-right: 10px;
     padding-bottom: 2px;
+    text-shadow: none;
   }
   .li::before {
     background-color: #f0f0f0;
