@@ -44,12 +44,14 @@ header {
   margin-top: 10px;
   text-transform: uppercase;
   font-size: 20px;
+  font-weight: 900;
   overflow: hidden;
   color: black;
   text-decoration: none;
   cursor: pointer;
   margin-left: 20px;
   mix-blend-mode: difference;
+  text-shadow: 1px 2px 2px #e7c0ac;
 }
 .li:hover::before {
   opacity: 1;

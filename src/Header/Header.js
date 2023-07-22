@@ -3,15 +3,18 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import MenuIcon from "../Assets/menu.svg";
 import gsap from "gsap";
+
 function Header({ timeline }) {
   let li1 = useRef(null);
   let li2 = useRef(null);
   let li3 = useRef(null);
-  let li4 = useRef(null);
+  // ADD LI4 FOR CONTACT PAGE LOADING
+  // let li4 = useRef(null);
   let li5 = useRef(null);
 
+  // ADD LI4 IN THE TIMELINE FUNCTION BELOW
   useEffect(() => {
-    timeline.from([li1, li2, li3, li4, li5], {
+    timeline.from([li1, li2, li3, li5], {
       opacity: 0,
       duration: 1,
       delay: 0.2,
@@ -44,11 +47,12 @@ function Header({ timeline }) {
               Projects
             </Link>
           </li>
-          <li ref={(el) => (li4 = el)}>
+          {/* REMOVE THESE COMMENTS TO ADD CONTACT PAGE TO SITE */}
+          {/* <li ref={(el) => (li4 = el)}>
             <Link to="/contact" className="li">
               Contact
             </Link>
-          </li>
+          </li> */}
           <li ref={(el) => (li5 = el)}>
             <a
               href="https://www.linkedin.com/in/harsh-tondak-a75742202/"
