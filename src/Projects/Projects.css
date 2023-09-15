@@ -54,7 +54,7 @@
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .project-page-item:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 .project-page-item-number p {
   font-size: 10px;
@@ -117,7 +117,7 @@
 }
 .project-page-item-image2 {
   background-image: url(../Assets/project2.png);
-  filter: grayscale(0.3);
+  filter: grayscale(0.2);
 }
 .project-page-item-image3 {
   background-image: url(../Assets/project3.png);
@@ -133,6 +133,18 @@
 }
 .project-page-item-image6 {
   background-image: url(../Assets/project6.png);
+  filter: grayscale(0.3);
+}
+.project-page-item-image7 {
+  background-image: url(../Assets/project7.png);
+  filter: grayscale(0.3);
+}
+.project-page-item-image8 {
+  background-image: url(../Assets/project8.png);
+  filter: grayscale(0.3);
+}
+.project-page-item-image9 {
+  background-image: url(../Assets/project9.png);
   filter: grayscale(0.3);
 }
 

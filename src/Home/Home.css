@@ -48,6 +48,14 @@
 .line-bottom {
   margin-top: -14vw;
 }
+#harsh {
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+}
+
+#harsh:hover {
+  color: #000;
+}
 
 .container1 #designer p i {
   color: #642420;

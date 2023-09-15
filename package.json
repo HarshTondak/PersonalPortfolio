@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "blotter.js": "^0.1.0",
     "gsap": "^3.9.1",
     "locomotive-scroll": "^4.0.6",
     "react": "^17.0.2",

@@ -48,14 +48,48 @@ function Projects() {
               <div className="project-page-item-number">
                 <p>06/23</p>
               </div>
-              <a href="https://ffaceb00k.netlify.app/" target="_blank">
+              <a href="https://snap-book.netlify.app/" target="_blank">
                 <div className="project-page-item-header">
-                  <h1>Social Media Website</h1>
-                  <p>FaceBook Clone</p>
+                  <h1>SnapBook</h1>
+                  <p>Social Media Website</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image1"></div>
                 <div className="project-page-item-footer">
                   <p>This is a fully responsive social media website.</p>
+                  <img src={arrow} alt="" />
+                </div>
+              </a>
+            </div>
+
+            <div className="project-page-item">
+              <div className="project-page-item-number">
+                <p>07/23</p>
+              </div>
+              <a href="https://votewise.free.nf/" target="_blank">
+                <div className="project-page-item-header">
+                  <h1>VoteWise</h1>
+                  <p>Online Voting System</p>
+                </div>
+                <div className="project-page-item-image project-page-item-image7"></div>
+                <div className="project-page-item-footer">
+                  <p>This is an online election voting website.</p>
+                  <img src={arrow} alt="" />
+                </div>
+              </a>
+            </div>
+
+            <div className="project-page-item">
+              <div className="project-page-item-number">
+                <p>08/23</p>
+              </div>
+              <a href="https://lifelines.lovestoblog.com/" target="_blank">
+                <div className="project-page-item-header">
+                  <h1>WiseLines</h1>
+                  <p>Blogging Website</p>
+                </div>
+                <div className="project-page-item-image project-page-item-image8"></div>
+                <div className="project-page-item-footer">
+                  <p>This is a fully responsive blogging website.</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
@@ -73,6 +107,23 @@ function Projects() {
                 <div className="project-page-item-image project-page-item-image2"></div>
                 <div className="project-page-item-footer">
                   <p>This is a marketing website social media agency.</p>
+                  <img src={arrow} alt="" />
+                </div>
+              </a>
+            </div>
+
+            <div className="project-page-item">
+              <div className="project-page-item-number">
+                <p>08/23</p>
+              </div>
+              <a href="https://snake-feast.netlify.app/" target="_blank">
+                <div className="project-page-item-header">
+                  <h1>Snake-Feast</h1>
+                  <p>A Snake Game</p>
+                </div>
+                <div className="project-page-item-image project-page-item-image9"></div>
+                <div className="project-page-item-footer">
+                  <p>This is a full responsive OG snake game.</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
@@ -154,7 +205,6 @@ function Projects() {
           </div>
         </div>
       </div>
-      <GetInTouch />
       <Footer />
     </div>
   );

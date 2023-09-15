@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-container">
           <div className="message-for-users">
             <span>
-              Please contact me
+              Contact me
               <br />
               in any way you like
             </span>
@@ -46,9 +46,9 @@ function Footer() {
             <div className="social-links-h highlight">Contact</div>
             <div className="social-links-items">
               <a href="mailto: tondakharsh@gmail.com">Mail</a>
-              <a href="">Whatsapp</a>
-              <a href="">Telegram</a>
-              <a href="">+91 9650910770</a>
+              {/* <a href="">Whatsapp</a>
+              <a href="">Telegram</a> */}
+              <a href="">+91 9650910XXX</a>
             </div>
           </div>
           <div className="footer-menu social-links">

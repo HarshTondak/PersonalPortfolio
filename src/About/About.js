@@ -132,6 +132,7 @@ function About() {
                 applications in our day-to-day lives.
                 <br /> I also love photo editing and currently learning to make
                 2-D animations.
+                <br /> My areas of interest are: Machine Learning & Web Dev.
               </p>
             </div>
 
@@ -156,7 +157,6 @@ function About() {
             </div>
           </div>
           <div className="about-footer">
-            <GetInTouch />
             <Footer />
           </div>
         </div>

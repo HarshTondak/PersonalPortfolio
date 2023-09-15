@@ -122,14 +122,6 @@ function Home() {
             <p>___</p>
           </div>
 
-          {/* <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">DSA</h1>
-            <p className="skill-set-box-p">
-              I use them to solve problems more efficiently
-            </p>
-            <p>___</p>
-          </div> */}
-
           <div className="skill-set-box">
             <h1 className="skill-set-box-h1">HTML5</h1>
             <p className="skill-set-box-p">
@@ -149,8 +141,7 @@ function Home() {
           <div className="skill-set-box">
             <h1 className="skill-set-box-h1">javascript</h1>
             <p className="skill-set-box-p">
-              With this technology i create visual effects and interaction and
-              DOM elements
+              Used for web development to create interactive and dynamic content
             </p>
             <p>___</p>
           </div>
@@ -158,40 +149,51 @@ function Home() {
           <div className="skill-set-box">
             <h1 className="skill-set-box-h1">React.js</h1>
             <p className="skill-set-box-p">
-              I loved it! I use it to create applications that have lot of
-              reactivity
+              A JavaScript library for building user interfaces, particularly
+              for single-page applications
             </p>
             <p>___</p>
           </div>
-          <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">Greensock - GSAP</h1>
-            <p className="skill-set-box-p">
-              I used this as an animation library, The most loved ones!
-            </p>
-            <p>___</p>
-          </div>
-
-          {/* <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">Three.js</h1>
-            <p className="skill-set-box-p">
-              This library deals and simplifies the working with webgl and glsl
-            </p>
-            <p>___</p>
-          </div> */}
-
-          {/* <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">Sass</h1>
-            <p className="skill-set-box-p">
-              I prefer this also instead of CSS beacouse of advance
-              functionalities
-            </p>
-            <p>___</p>
-          </div> */}
 
           <div className="skill-set-box">
             <h1 className="skill-set-box-h1">Node.js</h1>
             <p className="skill-set-box-p">
-              I use it to writing server scripting for applications
+              A JavaScript runtime for server-side development, handling backend
+              tasks
+            </p>
+            <p>___</p>
+          </div>
+
+          <div className="skill-set-box">
+            <h1 className="skill-set-box-h1">Express.js</h1>
+            <p className="skill-set-box-p">
+              A Node.js framework for building web applications and APIs
+            </p>
+            <p>___</p>
+          </div>
+
+          <div className="skill-set-box">
+            <h1 className="skill-set-box-h1">PHP</h1>
+            <p className="skill-set-box-p">
+              A server-side scripting language for web development, processing
+              forms, and more
+            </p>
+            <p>___</p>
+          </div>
+
+          <div className="skill-set-box">
+            <h1 className="skill-set-box-h1">WordPress</h1>
+            <p className="skill-set-box-p">
+              A content management system (CMS) for creating and managing
+              websites
+            </p>
+            <p>___</p>
+          </div>
+
+          <div className="skill-set-box">
+            <h1 className="skill-set-box-h1">Greensock - GSAP</h1>
+            <p className="skill-set-box-p">
+              I used this as an animation library, The most loved ones!
             </p>
             <p>___</p>
           </div>
@@ -203,14 +205,6 @@ function Home() {
             </p>
             <p>___</p>
           </div>
-
-          {/* <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">Illustrator</h1>
-            <p className="skill-set-box-p">
-              I use to make creative svgs and illustrations for website
-            </p>
-            <p>___</p>
-          </div> */}
         </div>
         <div className="project-and-work">
           <h1>
