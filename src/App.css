@@ -9,7 +9,7 @@ body {
 }
 body {
   /* background-color: #e9dbd4; */
-  background-color: #cd1818;
+  background-color: #245953;
   color: #e9dbd4;
 }
 .App {
@@ -58,7 +58,7 @@ body {
   width: 100%;
   height: 100vh;
   z-index: 1200;
-  background-color: #cd1818;
+  background-color: #245953;
   /* background-color: #e9dbd4; */
 }
 .progress {
