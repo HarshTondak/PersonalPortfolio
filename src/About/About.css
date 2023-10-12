@@ -20,6 +20,8 @@
 }
 #tondak {
   margin-left: 22vw;
+  color: transparent;
+  -webkit-text-stroke: 5px #c91919;
 }
 
 .container-text {
@@ -39,13 +41,9 @@
   letter-spacing: -7px;
   line-height: 13vw;
 }
-.container-text p {
-  overflow: hidden;
-}
 .container-inner-text2 {
   margin-top: -24vw;
   font-style: italic;
-  color: #c91919;
 }
 
 .container-quote {

@@ -59,7 +59,6 @@ body {
   height: 100vh;
   z-index: 1200;
   background-color: #245953;
-  /* background-color: #e9dbd4; */
 }
 .progress {
   margin: 0;
@@ -80,7 +79,7 @@ body {
   top: 10%;
   left: 10%;
   margin-bottom: 50px;
-  color: black;
+  color: #e9dbd4;
   font-size: 150px;
   font-family: Franchise;
 }
@@ -94,16 +93,10 @@ body {
   margin: 0;
   padding: 0;
   width: 1%;
-  padding: 1px 0px;
-  background-color: black;
+  padding: 4px 0px;
+  background-color: #e9dbd4;
 }
 
-/* @media (min-width: 1920px) {
-  .App {
-    margin: 0 auto;
-    width: 1920px;
-  }
-} */
 @media (max-width: 768px) {
   .cursor-follower {
     display: none;

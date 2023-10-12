@@ -50,18 +50,14 @@
   text-transform: capitalize;
   letter-spacing: -3px;
   font-family: KGHappy;
-  overflow: hidden;
   height: 100%;
   line-height: 100%;
 }
 #visual {
   margin-left: 25vw;
   color: transparent;
-  -webkit-text-stroke: 1px #e9dbd4;
+  -webkit-text-stroke: 5px #c91919;
 }
-/* #visual:hover {
-  color: #c91919;
-} */
 
 .left-side-quote {
   margin-left: 7vw;
