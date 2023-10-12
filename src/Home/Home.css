@@ -222,6 +222,30 @@
   border-radius: 10%;
 }
 
+@media (max-width: 1080px) {
+  .container1 {
+    margin-top: -33vh;
+  }
+  .txt-line {
+    margin-bottom: -33vh;
+  }
+  .flower-svg {
+    margin-top: -57vh;
+  }
+  .flower-svg img {
+    width: 12vw;
+  }
+}
+@media (max-width: 980px) {
+  .txt-line {
+    margin-bottom: -30vh;
+  }
+}
+@media (max-width: 890px) {
+  .txt-line {
+    margin-bottom: -27vh;
+  }
+}
 @media (max-width: 768px) {
   .container1 {
     margin-top: -30vh;
@@ -229,9 +253,6 @@
   }
   .txt-line p {
     font-size: 14vw;
-  }
-  .txt-line {
-    margin-bottom: -27vh;
   }
   .flower-svg {
     left: 18%;
