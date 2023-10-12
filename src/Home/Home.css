@@ -59,9 +59,9 @@
   color: transparent;
   -webkit-text-stroke: 1px #e9dbd4;
 }
-#visual:hover {
-  color: #65110b;
-}
+/* #visual:hover {
+  color: #c91919;
+} */
 
 .left-side-quote {
   margin-left: 7vw;
