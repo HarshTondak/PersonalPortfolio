@@ -307,7 +307,7 @@
     margin-top: -64vh;
   }
   .left-side-quote p {
-    font-size: 2vw;
+    font-size: 2.7vw;
     word-spacing: 3px;
     letter-spacing: 0px;
     writing-mode: vertical-rl;
@@ -319,10 +319,10 @@
     font-size: 16vw;
   }
   .short-about p {
-    font-size: 2vw;
+    font-size: 2.5vw;
     word-spacing: 6px;
-    line-height: 200%;
-    padding: 0 1vw;
+    line-height: 120%;
+    padding: 0 2vw;
   }
   .another-svg {
     margin-top: -160px;
