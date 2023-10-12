@@ -102,3 +102,8 @@ body {
     display: none;
   }
 }
+@media (max-width: 500px) {
+  #percent {
+    font-size: 120px;
+  }
+}
