@@ -2,9 +2,9 @@ import React, { useEffect, useRef } from "react";
 import Header from "../Header/Header";
 import "./Projects.css";
 import arrow from "../Assets/arrow.svg";
-import GetInTouch from "../GetInTouch/GetInTouch";
 import Footer from "../Footer/Footer";
 import gsap from "gsap";
+
 function Projects() {
   const timeline_project = gsap.timeline();
   let text1 = useRef(null);
@@ -37,8 +37,8 @@ function Projects() {
       <div className="project-page">
         <div className="my-projects">
           <h1 ref={(el) => (text1 = el)}>
-            my <br />
-            projects
+            MY <br />
+            PROJECTS
           </h1>
         </div>
 

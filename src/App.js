@@ -4,9 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
-import Contact from "./Contact/Contact";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
 import gsap from "gsap";
+import "./particleContainer.jsx";
+import ParticlesContainer from "./particleContainer.jsx";
 
 function App() {
   let cursor = useRef(null);
@@ -98,7 +99,7 @@ function App() {
   return (
     <div>
       <Router>
-        <div className="noise"></div>
+        <ParticlesContainer />
         <div className="App">
           <div className="loader" ref={(el) => (loader = el)}>
             <div className="progress" ref={(el) => (progress = el)}>
@@ -124,11 +125,6 @@ function App() {
           <Switch>
             <Route path="/projects" exact>
               <Projects />
-            </Route>
-          </Switch>
-          <Switch>
-            <Route path="/contact" exact>
-              <Contact />
             </Route>
           </Switch>
           <div className="cursor-follower" ref={(el) => (cursor = el)}></div>

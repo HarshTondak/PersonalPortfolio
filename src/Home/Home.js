@@ -14,13 +14,12 @@ function Home() {
   let text1 = useRef(null);
   let text2 = useRef(null);
   let text3 = useRef(null);
-  let text4 = useRef(null);
   let p1 = useRef(null);
 
   const timeline_home = gsap.timeline();
   useEffect(() => {
     timeline_home.from(
-      [text1, text2, text3, text4],
+      [text1, text2, text3],
       {
         duration: 1,
         skewY: 15,
@@ -46,14 +45,18 @@ function Home() {
 
       <div className="container">
         <div className="container1">
-          <div className="txt-line" id="tondak">
-            <p ref={(el) => (text1 = el)}>Harsh</p>
+          <div className="txt-line" id="creative">
+            <p ref={(el) => (text1 = el)}>Creative</p>
           </div>
-          <div className="txt-line line-bottom" id="harsh">
-            <p ref={(el) => (text2 = el)}>Tondak</p>
+          <div className="txt-line visual" id="visual">
+            <p ref={(el) => (text2 = el)}>
+              <i>Visual</i>
+            </p>
+          </div>
+          <div className="txt-line" id="designer">
+            <p ref={(el) => (text3 = el)}>Designer</p>
           </div>
         </div>
-        <div></div>
       </div>
 
       <div className="gapper2"></div>
@@ -65,25 +68,11 @@ function Home() {
         </p>
       </div>
 
-      <div className="gapper3"></div>
-
-      <div className="container">
-        <div></div>
-        <div className="container1">
-          <div className="txt-line" id="digital">
-            <p ref={(el) => (text3 = el)}>Creative</p>
-          </div>
-          <div className="txt-line line-bottom" id="designer">
-            <p ref={(el) => (text4 = el)}>
-              <i>Visual</i> Designer
-            </p>
-          </div>
-        </div>
-      </div>
-
       <div className="flower-svg">
         <img src={flower} alt="" />
       </div>
+
+      <div className="gapper3"></div>
 
       <div className="short-about">
         <div className="main-h1-short-about">
@@ -102,17 +91,18 @@ function Home() {
         <div className="another-svg">
           <img src={another} alt="" />
         </div>
+        {/* <div className="main-h1-short-about-link">
+          <h1>
+            <Link to="/about">TAP TO KNOW MORE :)</Link>
+          </h1>
+        </div> */}
       </div>
       <div className="my-skills-main-reel">
         <div className="my-skills-reel" id="skill-reel">
-          <div className="reel-item">&nbsp; -- My skills</div>
-          <div className="reel-item">&nbsp; -- My skills</div>
-          <div className="reel-item">&nbsp; -- My skills</div>
-          <div className="reel-item">&nbsp; -- My skills</div>
-          <div className="reel-item">&nbsp; -- My skills</div>
-          <div className="reel-item">&nbsp; -- My skills</div>
-          <div className="reel-item">&nbsp; -- My skills</div>
+          <div className="reel-item">My skills</div>
         </div>
+
+        {/* <HorizontalScroll> */}
         <div className="skill-set-boxes">
           <div className="skill-set-box">
             <h1 className="skill-set-box-h1">C/C++</h1>
@@ -139,7 +129,7 @@ function Home() {
           </div>
 
           <div className="skill-set-box">
-            <h1 className="skill-set-box-h1">javascript</h1>
+            <h1 className="skill-set-box-h1">JavaScript</h1>
             <p className="skill-set-box-p">
               Used for web development to create interactive and dynamic content
             </p>
@@ -191,6 +181,15 @@ function Home() {
           </div>
 
           <div className="skill-set-box">
+            <h1 className="skill-set-box-h1">Git</h1>
+            <p className="skill-set-box-p">
+              A distributed version control system for tracking changes in code
+              collaboratively and efficiently.
+            </p>
+            <p>___</p>
+          </div>
+
+          <div className="skill-set-box">
             <h1 className="skill-set-box-h1">Greensock - GSAP</h1>
             <p className="skill-set-box-p">
               I used this as an animation library, The most loved ones!
@@ -206,14 +205,15 @@ function Home() {
             <p>___</p>
           </div>
         </div>
+        {/* </HorizontalScroll> */}
         <div className="project-and-work">
           <h1>
             <Link className="h1-project" to="/projects">
-              My Projects and Works <img src={arrow} alt="" />
+              My Projects
+              <br />
+              and Works <img src={arrow} alt="" />
             </Link>
           </h1>
-          {/* <br /> */}
-          <p>Click!</p>
         </div>
         <GetInTouch />
         <Footer />

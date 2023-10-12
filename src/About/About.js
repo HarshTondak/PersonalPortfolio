@@ -6,14 +6,6 @@ import "./About.css";
 import gsap from "gsap";
 import flower from "../Assets/flower.svg";
 function About() {
-  // var docWidth = document.documentElement.offsetWidth;
-
-  // [].forEach.call(document.querySelectorAll("*"), function (el) {
-  //   if (el.offsetWidth > docWidth) {
-  //     console.log(el);
-  //   }
-  // });
-
   let text1 = useRef(null);
   let text2 = useRef(null);
   let image = useRef(null);
@@ -63,11 +55,11 @@ function About() {
           <Header timeline={timeline_about} />
           <div className="about-container">
             <div className="container-text">
-              <div className="container-inner-text1">
-                <p ref={(el) => (text1 = el)}>Harsh</p>
+              <div className="container-inner-text1" id="harsh">
+                <p ref={(el) => (text1 = el)}>HARSH</p>
               </div>
-              <div className="container-inner-text2">
-                <p ref={(el) => (text2 = el)}>Tondak</p>
+              <div className="container-inner-text2" id="tondak">
+                <p ref={(el) => (text2 = el)}>TONDAK</p>
               </div>
             </div>
             <div
@@ -105,21 +97,16 @@ function About() {
             </div>
 
             <div className="about-container2-p">
-              <p>
-                My name is{" "}
-                <i>
-                  <strong>Harsh Tondak</strong>
-                </i>
-                <br />
-                And I am from Delhi, India <br /> I am 23 years old
-              </p>
+              <p>I am a 23 years old Developer from New Delhi, India.</p>
 
               <p className="about-container2-p-right">
-                I am a final year student pursuing Masters of Computer
-                Applications at MNNIT-Allahabad.
-                <br /> I have completed my Bachelor of Science in Mathematics
-                Honours at University of Delhi from Deen Dayal Upadhyaya
-                College.
+                I am a final year student of Masters of Computer Applications
+                <br />
+                at MNNIT-Allahabad.
+                <br />I have completed my Bachelor of Science in Mathematics
+                Honours
+                <br />
+                at University of Delhi from Deen Dayal Upadhyaya College.
               </p>
 
               <p>
@@ -127,30 +114,14 @@ function About() {
                 <br /> I have experiences of organizing events.
               </p>
 
-              <p>
-                I am very interested in WEB Designing and it's amazing
-                applications in our day-to-day lives.
-                <br /> I also love photo editing and currently learning to make
-                2-D animations.
+              <p className="about-container2-p-right">
+                I am very interested in WEB Designing and
+                <br />
+                it's amazing applications in our day-to-day lives.
+                <br /> I also love photo editing and designing animations.
                 <br /> My areas of interest are: Machine Learning & Web Dev.
               </p>
             </div>
-
-            {/* <div className="about-container2-heading2">
-              <div className="about-text-lower-1">
-                <p>What is my feature?</p>
-              </div>
-            </div>
-            <div className="about-container2-p">
-              <p className="about-container2-p-right">
-                Lorem ipsum dolor sit amet. <br /> Lorem ipsum dolor sit amet.{" "}
-                <br /> Lorem ipsum dolor sit amet.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet. <br /> Lorem ipsum dolor sit amet.{" "}
-                <br /> Lorem ipsum dolor sit amet.
-              </p>
-            </div> */}
 
             <div className="about-container-flower">
               <img src={flower} alt="" />

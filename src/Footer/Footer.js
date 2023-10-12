@@ -45,7 +45,7 @@ function Footer() {
           <div className="social-links">
             <div className="social-links-h highlight">Contact</div>
             <div className="social-links-items">
-              <a href="mailto: tondakharsh@gmail.com">Mail</a>
+              <a href="mailto: tondakharsh@gmail.com">E-Mail Me</a>
               {/* <a href="">Whatsapp</a>
               <a href="">Telegram</a> */}
               <a href="">+91 9650910XXX</a>
@@ -57,17 +57,17 @@ function Footer() {
             </div>
             <div className="footer-menu-links social-links-items">
               <p className="footer-menu-links-items">
-                <Link to="/">Home.</Link>
+                <Link to="/">Home</Link>
               </p>
               <p className="footer-menu-links-items">
-                <Link to="/about">About.</Link>
+                <Link to="/about">About</Link>
               </p>
               <p className="footer-menu-links-items">
-                <Link to="/projects">Projects.</Link>
+                <Link to="/projects">Projects</Link>
               </p>
-              <p className="footer-menu-links-items">
+              {/* <p className="footer-menu-links-items">
                 <Link to="/contact">Contact.</Link>
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="footer-btn">

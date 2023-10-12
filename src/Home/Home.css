@@ -6,6 +6,14 @@
   font-family: Inter;
   src: url(../Assets/fonts/Inter-Regular.ttf);
 }
+@font-face {
+  font-family: KGHappy;
+  src: url(../Assets/fonts/KGHappy.ttf);
+}
+@font-face {
+  font-family: Franchise;
+  src: url(../Assets/fonts/Franchise.ttf);
+}
 
 .gapper1 {
   margin-top: 50px;
@@ -14,90 +22,73 @@
   margin-top: 0px;
 }
 .gapper3 {
-  margin-top: 0px;
+  margin-top: 350px;
 }
 
 .container {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  height: 40vw;
+  flex-direction: column;
+  height: 140vh;
   width: 100%;
   margin-top: -80px;
 }
 .container1 {
   display: flex;
   flex-direction: column;
-  padding: 0px 8vw;
+  padding: 0px 14vw;
+  margin-top: -38vh;
   height: 100%;
   justify-content: center;
   overflow: hidden;
 }
 .txt-line {
   overflow: hidden;
+  margin-bottom: -38vh;
 }
 .txt-line p {
   font-size: 12vw;
   text-transform: capitalize;
   letter-spacing: -3px;
-  font-family: Ogg;
+  font-family: KGHappy;
   overflow: hidden;
   height: 100%;
-  line-height: 120%;
+  line-height: 100%;
 }
-.line-bottom {
-  margin-top: -14vw;
-}
-#harsh {
+#visual {
+  margin-left: 25vw;
   color: transparent;
-  -webkit-text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #e9dbd4;
 }
-
-#harsh:hover {
-  color: #000;
-}
-
-.container1 #designer p i {
-  color: #642420;
-}
-
-.right-side-menu {
-  position: absolute;
-  top: 40vh;
-  text-align: right;
-  right: 60px;
-}
-.right-side-menu p {
-  font-size: 20px;
-  font-family: Inter;
-  color: #642420;
-  cursor: pointer;
-  font-weight: lighter;
+#visual:hover {
+  color: #65110b;
 }
 
 .left-side-quote {
-  margin-left: 9vw;
+  margin-left: 7vw;
+  margin-top: -50vh;
 }
 .left-side-quote p {
   color: black;
   font-size: 1.5vw;
-  font-family: Inter;
+  font-family: Ogg;
+  line-height: 110%;
   word-spacing: 10px;
+  letter-spacing: -1px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 900;
 }
 
 .flower-svg {
-  margin-left: 6vw;
-  margin-top: -20.5vw;
+  position: relative;
+  left: 20%;
+  margin-top: -60vh;
 }
 .flower-svg img {
   animation: animate-rotate 30s infinite linear;
-  width: 9vw;
+  width: 11vw;
 }
 
 .short-about {
-  margin-top: 230px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -105,37 +96,36 @@
   flex-direction: column;
 }
 .main-h1-short-about {
-  margin-top: 6vw;
+  margin-top: 12vh;
 }
 .sub-main-p-short-about {
   margin-top: 150px;
 }
 .short-about h1 {
-  font-size: 10vw;
+  font-size: 11vw;
   font-weight: 500;
-  font-family: Ogg;
-  margin-bottom: -150px;
-  letter-spacing: -2px;
+  font-family: Franchise;
   text-align: center;
-  line-height: 190px;
+  line-height: 40%;
 }
 .short-about p {
   text-align: center;
-  color: #642420;
+  color: black;
   font-family: Inter;
-  font-weight: 500;
+  font-weight: 900;
   font-size: 1.5vw;
-  margin-top: 30px;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  line-height: 50%;
+  margin-top: -80px;
 }
-
 .another-svg {
-  margin-top: 40px;
+  margin-top: -20px;
 }
 .short-about .another-svg img {
   width: 5vw;
   animation: animate-rotate 10s infinite linear;
 }
-
 @keyframes animate-rotate {
   from {
     transform: rotate(0deg);
@@ -147,42 +137,25 @@
 
 .my-skills-main-reel {
   width: 100%;
-  overflow: hidden;
 }
 .my-skills-reel {
-  margin-top: 300px;
-  margin-bottom: 150px;
+  margin-top: 40vh;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
-  white-space: nowrap;
-  width: fit-content;
-  will-change: transform;
-  animation: animation-reel 15s infinite linear;
+  justify-content: center;
 }
-@keyframes animation-reel {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(100%);
-  }
-}
-
 .reel-item {
-  font-weight: 400;
-  font-family: Ogg;
-  font-size: 18vw;
+  font-weight: 300;
+  font-family: Franchise;
+  font-size: 12vw;
   text-transform: uppercase;
-}
-.my-skills-reel:hover {
-  animation-play-state: paused;
 }
 
 .skill-set-boxes {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 100px;
   width: 100%;
   height: fit-content;
   flex-wrap: wrap;
@@ -192,7 +165,7 @@
   display: flex;
   width: 350px;
   height: 200px;
-  color: #e6e6e6;
+  color: #e9dbd4;
   flex-direction: column;
   background-color: #101010;
   border-radius: 10px;
@@ -203,7 +176,7 @@
 }
 .skill-set-box:hover {
   color: #161616;
-  background-color: #f0f0f0;
+  background-color: #e9dbd4;
   border: 1px solid #161616;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
@@ -234,247 +207,128 @@
   margin-bottom: 100px;
   flex-direction: column;
   height: 30vh;
-  padding-bottom: 11vw;
+  padding-bottom: 15vh;
   border-bottom: 1px dashed black;
 }
 .project-and-work h1 .h1-project {
   text-decoration: none;
-  color: black;
-  font-size: 10vw;
+  color: #e9dbd4;
+  font-size: 12vw;
   font-weight: lighter;
-  font-family: Ogg;
+  font-family: Franchise;
   text-decoration: 0.5px line-through;
 }
-.project-and-work p {
-  color: black;
-  font-size: 3vw;
-  margin-top: -20px;
-  font-weight: lighter;
-  font-family: Inter;
-  padding: 8px;
-  border: 1px dashed #101010;
-  border-radius: 50%;
-}
 .h1-project img {
-  width: 8vw;
-}
-
-@media (max-width: 930px) {
-  .gapper1 {
-    margin-top: 150px;
-  }
-  .container {
-    height: 44vw;
-  }
-  .container1 {
-    padding: 0 6vw;
-  }
-  .txt-line p {
-    font-size: 13.5vw;
-  }
-  .left-side-quote {
-    margin-left: 7vw;
-  }
-  .flower-svg {
-    margin-left: 70vw;
-    margin-top: -28vw;
-  }
-  .gapper2 {
-    margin-top: 20px;
-  }
-  .sub-main-p-short-about {
-    margin-top: 100px;
-  }
-  .short-about h1 {
-    line-height: 180px;
-  }
-  .short-about p {
-    line-height: 0vw;
-  }
+  width: 5vw;
+  transform: rotate(180deg);
+  padding: 15px;
+  border: 1px dashed black;
+  border-radius: 10%;
 }
 
 @media (max-width: 768px) {
+  .container1 {
+    margin-top: -30vh;
+    padding: 0px 10vw;
+  }
   .txt-line p {
-    font-size: 13.5vw;
+    font-size: 14vw;
   }
-  .container {
-    height: 48vw;
-    display: block;
-  }
-  .line-bottom {
-    margin-top: -15vw;
-  }
-  .gapper2 {
-    margin-top: 30px;
-  }
-  .gapper3 {
-    margin-top: 20px;
+  .txt-line {
+    margin-bottom: -27vh;
   }
   .flower-svg {
-    margin-top: -50vw;
+    left: 18%;
+    margin-top: -52vh;
   }
   .flower-svg img {
     width: 13vw;
   }
-  .container1 {
-    padding: 0 6vw;
-  }
-  .left-side-quote {
-    margin-left: 20vw;
-  }
-  .left-side-quote p {
-    font-size: 1.75vw;
-  }
-  .short-about {
-    margin-top: 60vw;
-  }
   .short-about h1 {
-    font-size: 12vw;
-  }
-  .short-about p {
-    font-size: 2vw;
-  }
-}
-
-@media (max-width: 690px) {
-  .txt-line p {
-    font-size: 14vw;
-  }
-  .container {
-    height: 50vw;
-  }
-  .short-about h1 {
-    line-height: 170px;
-  }
-}
-
-@media (max-width: 600px) {
-  .container1 #designer p {
-    display: flex;
-    flex-direction: column;
-    line-height: 10vw;
-    margin-left: 20vw;
-  }
-  .container1 #designer p i {
-    margin-left: 28vw;
-    margin-top: 3vw;
-    margin-bottom: 2vw;
-  }
-  .txt-line p {
-    font-size: 16vw;
-  }
-  .container {
-    height: 60vw;
-  }
-  .line-bottom {
-    margin-top: -24vw;
-  }
-  .gapper2 {
-    margin-top: -30px;
-  }
-  .gapper3 {
-    margin-top: 30px;
-  }
-  .left-side-quote {
-    margin-left: 7vw;
-  }
-  .flower-svg {
-    display: none;
-  }
-  .short-about {
-    margin-top: 20vw;
-  }
-  .reel-item {
-    font-size: 60px;
-  }
-  .project-and-work h1 .h1-project {
-    font-size: 12vw;
-  }
-  .h1-project img {
-    transform: rotate(90deg);
-  }
-}
-
-@media (max-width: 520px) {
-  .txt-line p {
-    font-size: 18vw;
-  }
-  .container {
-    height: 70vw;
-  }
-  .container1 #designer p i {
-    margin-left: 20vw;
-    margin-top: 6vw;
-    margin-bottom: 5vw;
-  }
-  .line-bottom {
-    margin-top: -30vw;
-  }
-  .left-side-quote p {
-    font-size: 2vw;
-  }
-  .gapper2 {
-    margin-top: -50px;
-  }
-  .gapper3 {
-    margin-top: 60px;
-  }
-  .my-skills-reel {
-    margin-top: 200px;
-  }
-  .project-and-work h1 .h1-project {
     font-size: 13vw;
   }
-  .project-and-work p {
-    font-size: 5vw;
+  .another-svg {
+    margin-top: -122px;
+  }
+  .short-about .another-svg img {
+    width: 3vw;
+  }
+  .reel-item {
+    font-size: 14vw;
+  }
+  .project-and-work {
+    padding-bottom: 10vh;
+  }
+  .project-and-work h1 .h1-project {
+    font-size: 14vw;
   }
   .h1-project img {
-    width: 10vw;
-    /* transform: rotate(90deg); */
-  }
-  .short-about h1 {
-    font-size: 14vw;
-    letter-spacing: 0px;
+    width: 4vw;
   }
 }
 
 @media (max-width: 425px) {
-  .gapper1 {
-    margin-top: 100px;
+  .container1 {
+    margin-top: -30vh;
+    padding: 0px 3vw;
   }
   .txt-line p {
-    font-size: 20vw;
+    font-size: 18.5vw;
+    letter-spacing: -5px;
+    line-height: 110%;
   }
-  .container {
-    height: 80vw;
+  #visual {
+    margin-left: 27vw;
   }
-  .container1 {
-    padding: 0px 5vw;
+  .txt-line {
+    margin-bottom: -120px;
   }
-  .container1 #designer p {
-    margin-left: 13vw;
+  .flower-svg {
+    display: none;
   }
-  .container1 #designer p i {
-    margin-left: 24vw;
-    margin-top: 6vw;
-    margin-bottom: 6vw;
-  }
-  .line-bottom {
-    margin-top: -35vw;
+  .left-side-quote {
+    margin-top: -64vh;
   }
   .left-side-quote p {
-    font-size: 3vw;
-  }
-  .gapper2 {
-    margin-top: -30px;
+    font-size: 2vw;
+    word-spacing: 3px;
+    letter-spacing: 0px;
+    writing-mode: vertical-rl;
   }
   .gapper3 {
-    margin-top: 70px;
+    margin-top: 0px;
   }
   .short-about h1 {
-    font-size: 15vw;
+    font-size: 16vw;
   }
   .short-about p {
-    font-size: 2.5vw;
+    font-size: 2vw;
+    word-spacing: 6px;
+    line-height: 200%;
+    padding: 0 1vw;
+  }
+  .another-svg {
+    margin-top: -160px;
+  }
+  .short-about .another-svg img {
+    width: 5vw;
+  }
+  .reel-item {
+    font-size: 18vw;
+  }
+  .skill-set-box {
+    width: 320px;
+    margin: 30px 10px;
+  }
+  .project-and-work {
+    padding-bottom: 0vh;
+    margin-top: 20vh;
+    margin-bottom: 200px;
+  }
+  .project-and-work h1 .h1-project {
+    font-size: 17vw;
+  }
+  .h1-project img {
+    width: 3vw;
   }
 }
