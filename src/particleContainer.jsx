@@ -39,10 +39,10 @@ const ParticlesContainer = () => {
           },
           modes: {
             push: {
-              quantity: 90,
+              quantity: 10,
             },
             repulse: {
-              distance: 200,
+              distance: 100,
               duration: 0.4,
             },
           },
@@ -50,7 +50,6 @@ const ParticlesContainer = () => {
         particles: {
           color: {
             value: "FFD93D",
-            // value: "#e68e2e",
           },
           links: {
             color: "#FFB000",

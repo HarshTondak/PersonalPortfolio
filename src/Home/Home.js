@@ -10,7 +10,6 @@ import Footer from "../Footer/Footer";
 import gsap from "gsap";
 
 function Home() {
-  const containerRef = useRef(null);
   let text1 = useRef(null);
   let text2 = useRef(null);
   let text3 = useRef(null);

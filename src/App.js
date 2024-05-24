@@ -1,29 +1,34 @@
 import React, { useRef, useEffect } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
 import gsap from "gsap";
-import "./particleContainer.jsx";
 import ParticlesContainer from "./particleContainer.jsx";
 
 function App() {
-  let cursor = useRef(null);
-  let posX1 = useRef(null);
-  let posY1 = useRef(null);
-  let mouseX1 = useRef(null);
-  let mouseY1 = useRef(null);
+  const cursorRef = useRef(null);
+  const posXRef = useRef(0);
+  const posYRef = useRef(0);
+  const mouseXRef = useRef(0);
+  const mouseYRef = useRef(0);
 
-  let tl = gsap.timeline();
-  let tl2 = gsap.timeline();
+  const loaderRef = useRef(null);
+  const progressRef = useRef(null);
+  const percentRef = useRef(null);
+  const barRef = useRef(null);
+  const barcRef = useRef(null);
 
   useEffect(() => {
-    let posX = posX1.current;
-    let posY = posY1.current;
-    let mouseX = mouseX1.current;
-    let mouseY = mouseY1.current;
+    const cursor = cursorRef.current;
+    let posX = posXRef.current;
+    let posY = posYRef.current;
+    let mouseX = mouseXRef.current;
+    let mouseY = mouseYRef.current;
+
+    const tl = gsap.timeline();
     tl.to({}, 0.016, {
       repeat: -1,
       onRepeat: function () {
@@ -37,10 +42,13 @@ function App() {
         });
       },
     });
-    document.addEventListener("mousemove", function (e) {
+
+    document.addEventListener("mousemove", (e) => {
       mouseX = e.pageX;
       mouseY = e.pageY;
     });
+
+    const tl2 = gsap.timeline();
     tl2.from(
       cursor,
       {
@@ -50,18 +58,19 @@ function App() {
       },
       "-=1"
     );
-  });
 
-  const load = gsap.timeline({
-    paused: "true",
-  });
-  let loader = useRef(null);
-  let progress = useRef(null);
-  let percent = useRef(null);
-  let bar = useRef(null);
-  let barc = useRef(null);
+    return () => {
+      document.removeEventListener("mousemove", () => {});
+    };
+  }, []);
 
   useEffect(() => {
+    const load = gsap.timeline({ paused: true });
+    const loader = loaderRef.current;
+    const progress = progressRef.current;
+    const percent = percentRef.current;
+    const bar = barRef.current;
+
     load.to([percent, bar], {
       duration: 0.2,
       opacity: 0,
@@ -75,59 +84,55 @@ function App() {
       visibility: "hidden",
       zIndex: -1,
     });
-  });
 
-  var id;
-  var width1 = 1;
+    let id;
+    let width = 1;
 
-  function loading() {
-    id = setInterval(frame, 20);
-  }
-  function frame() {
-    if (width1 >= 100) {
-      clearInterval(id);
-      load.play();
-    } else {
-      width1++;
-      document.getElementById("barc").style.width = width1 + "%";
-      document.getElementById("percent").innerHTML = width1 + "%";
+    function loading() {
+      id = setInterval(frame, 20);
     }
-  }
-  window.addEventListener("load", (e) => {
-    loading();
-  });
+
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        load.play();
+      } else {
+        width++;
+        barcRef.current.style.width = width + "%";
+        percentRef.current.innerHTML = width + "%";
+      }
+    }
+
+    window.addEventListener("load", loading);
+
+    return () => {
+      clearInterval(id);
+      window.removeEventListener("load", loading);
+    };
+  }, []);
+
   return (
     <div>
       <Router>
         <ParticlesContainer />
         <div className="App">
-          <div className="loader" ref={(el) => (loader = el)}>
-            <div className="progress" ref={(el) => (progress = el)}>
-              <div id="percent" ref={(el) => (percent = el)}>
+          <div className="loader" ref={loaderRef}>
+            <div className="progress" ref={progressRef}>
+              <div id="percent" ref={percentRef}>
                 1%
               </div>
-              <div id="bar" ref={(el) => (bar = el)}>
-                <div id="barc" ref={(el) => (barc = el)}></div>
+              <div id="bar" ref={barRef}>
+                <div id="barc" ref={barcRef}></div>
               </div>
             </div>
           </div>
           <ScrollToTop />
-          <Switch>
-            <Route path="/" exact>
-              <Home />
-            </Route>
-          </Switch>
-          <Switch>
-            <Route path="/about" exact>
-              <About />
-            </Route>
-          </Switch>
-          <Switch>
-            <Route path="/projects" exact>
-              <Projects />
-            </Route>
-          </Switch>
-          <div className="cursor-follower" ref={(el) => (cursor = el)}></div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+          <div className="cursor-follower" ref={cursorRef}></div>
         </div>
       </Router>
     </div>

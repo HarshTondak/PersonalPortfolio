@@ -48,7 +48,11 @@ function Projects() {
               <div className="project-page-item-number">
                 <p>06/23</p>
               </div>
-              <a href="https://snap-book.netlify.app/" target="_blank">
+              <a
+                href="https://snap-book.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="project-page-item-header">
                   <h1>SnapBook</h1>
                   <p>Social Media Website</p>
@@ -65,7 +69,11 @@ function Projects() {
               <div className="project-page-item-number">
                 <p>07/23</p>
               </div>
-              <a href="https://votewise.free.nf/" target="_blank">
+              <a
+                href="https://votewise.free.nf/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="project-page-item-header">
                   <h1>VoteWise</h1>
                   <p>Online Voting System</p>
@@ -82,7 +90,11 @@ function Projects() {
               <div className="project-page-item-number">
                 <p>08/23</p>
               </div>
-              <a href="https://lifelines.lovestoblog.com/" target="_blank">
+              <a
+                href="https://lifelines.lovestoblog.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="project-page-item-header">
                   <h1>WiseLines</h1>
                   <p>Blogging Website</p>
@@ -99,7 +111,11 @@ function Projects() {
               <div className="project-page-item-number">
                 <p>05/23</p>
               </div>
-              <a href="https://socioheads.com/" target="_blank">
+              <a
+                href="https://socioheads.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="project-page-item-header">
                   <h1>SocioHeads</h1>
                   <p>PR Agency Website</p>
@@ -116,7 +132,11 @@ function Projects() {
               <div className="project-page-item-number">
                 <p>08/23</p>
               </div>
-              <a href="https://snake-feast.netlify.app/" target="_blank">
+              <a
+                href="https://snake-feast.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="project-page-item-header">
                   <h1>Snake-Feast</h1>
                   <p>A Snake Game</p>
@@ -133,7 +153,11 @@ function Projects() {
               <div className="project-page-item-number">
                 <p>04/23</p>
               </div>
-              <a href="https://dice-roling-game.netlify.app/" target="_blank">
+              <a
+                href="https://dice-roling-game.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="project-page-item-header">
                   <h1>Dicy</h1>
                   <p>A Dice Game</p>
@@ -150,7 +174,11 @@ function Projects() {
               <div className="project-page-item-number">
                 <p>04/23</p>
               </div>
-              <a href="https://numbers-guessing.netlify.app/" target="_blank">
+              <a
+                href="https://numbers-guessing.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="project-page-item-header">
                   <h1>GuessIt</h1>
                   <p>A Number Guessing Game</p>
@@ -170,6 +198,7 @@ function Projects() {
               <a
                 href="https://banking-website-page.netlify.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="project-page-item-header">
                   <h1>Bankist</h1>
@@ -190,6 +219,7 @@ function Projects() {
               <a
                 href="https://banking-transaction-app.netlify.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="project-page-item-header">
                   <h1>Transactions</h1>
